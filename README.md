@@ -1,8 +1,8 @@
-# AUDREY — Sentra SideLab
-
+<div align="center"> # AUDREY — Sentra SideLab
+  <img src="public/sidelab-logo.png" alt="AUDREY — Sentra SideLab" width="720" />
 > **Sentra SideLab** · Clinical AI Division  
 > *by dr. Classy · Kediri, Indonesia · 2026*
-
+</div>
 ---
 
 ## Table of Contents
