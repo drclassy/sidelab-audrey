@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src=".github/sidelab-gh.png" alt="Sentra SideLab" width="500" />
-
+<img src=".github/sidelab-gh.png" alt="Sentra SideLab" width="400" />
 <h1>AUDREY</h1>
 <h3>Advanced Universal Diagnostic & Responsive Expert Yield</h3>
 
 <p>
   <b>Sentra SideLab</b> · Clinical AI Division<br/>
-  <i>by dr. Ferdi Iskandar · Kediri, Indonesia · 2026</i>
+  <i>by dr. Classy · Kediri, Indonesia · 2026</i>
 </p>
 
 <p>
