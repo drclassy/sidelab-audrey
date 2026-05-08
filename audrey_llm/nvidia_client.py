@@ -40,6 +40,7 @@ class NvidiaClient:
         headers = {
             "Authorization": f"Bearer {key}",
             "Content-Type": "application/json",
+            "Accept": "text/event-stream",
         }
         url = f"{self.base_url}/chat/completions"
 
