@@ -4,8 +4,8 @@ import os
 
 DEFAULT_BACKEND = "deepseek"
 DEFAULT_LOCAL_MODEL = "medgemma:4b"
-DEFAULT_DEEPSEEK_MODEL = "deepseek-chat"
-AVAILABLE_DEEPSEEK_MODELS = ("deepseek-chat", "deepseek-reasoner")
+DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-flash"
+AVAILABLE_DEEPSEEK_MODELS = ("deepseek-v4-flash", "deepseek-v4-pro")
 
 
 def normalize_backend(value: str | None) -> str:
