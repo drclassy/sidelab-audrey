@@ -50,6 +50,7 @@ except ImportError:
 
 from audrey_llm import (
     AVAILABLE_DEEPSEEK_MODELS,
+    AVAILABLE_NVIDIA_MODELS,
     DEFAULT_LOCAL_MODEL,
     build_provider,
     default_model_for_backend,
@@ -153,7 +154,11 @@ console = Console(highlight=False)
 
 
 def _backend_label(backend: str) -> str:
-    return "DeepSeek" if backend == "deepseek" else "Local"
+    if backend == "deepseek":
+        return "DeepSeek"
+    if backend == "nvidia":
+        return "NVIDIA NIM"
+    return "Local"
 
 
 def _print_backend_menu() -> str:
@@ -166,7 +171,8 @@ def _print_backend_menu() -> str:
         title=_panel_title("BACKEND INFERENCE"),
         style=f"on {C_PANEL}",
     ))
-    choice = console.input("  Pilih mode [Enter=DeepSeek] > ").strip()
+    default_label = _backend_label(resolve_backend_choice(""))
+    choice = console.input(f"  Pilih mode [Enter={default_label}] > ").strip()
     backend = resolve_backend_choice(choice)
     console.print(f"  Mode aktif: {_backend_label(backend)}", style="dim grey50")
     console.print()
@@ -177,6 +183,8 @@ def _get_backend_models(backend: str) -> list[str]:
     if backend == "local":
         models = local_available_models()
         return models or [DEFAULT_LOCAL_MODEL]
+    if backend == "nvidia":
+        return list(AVAILABLE_NVIDIA_MODELS)
     return list(AVAILABLE_DEEPSEEK_MODELS)
 
 # ---------------------------------------------------------------------------
@@ -2872,7 +2880,8 @@ def _chat(prompt: str, history: list, pasien: dict, model: str, backend: str) ->
     full_response = ""
 
     try:
-        provider = build_provider(backend, api_key=os.getenv("DEEPSEEK_API_KEY"))
+        api_key = os.getenv("NVIDIA_API_KEY") if backend == "nvidia" else os.getenv("DEEPSEEK_API_KEY")
+        provider = build_provider(backend, api_key=api_key)
         renderer = StreamRenderer()
         line_buf = ""
         in_farma = False
@@ -3363,6 +3372,11 @@ def main() -> None:
     if backend == "deepseek" and not os.getenv("DEEPSEEK_API_KEY", "").strip():
         console.print(
             "  [i] DEEPSEEK_API_KEY belum diisi. Lengkapi .env agar DeepSeek bisa dipakai.",
+            style="bright_yellow",
+        )
+    if backend == "nvidia" and not os.getenv("NVIDIA_API_KEY", "").strip():
+        console.print(
+            "  [i] NVIDIA_API_KEY belum diisi. Lengkapi .env agar NVIDIA NIM bisa dipakai.",
             style="bright_yellow",
         )
     console.print(

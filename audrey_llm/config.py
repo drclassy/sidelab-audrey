@@ -18,7 +18,13 @@ def normalize_backend(value: str | None) -> str:
         return "local"
     if backend in {"nvidia", "nim", "3"}:
         return "nvidia"
-    return DEFAULT_BACKEND
+    # Empty input → read default from env at runtime
+    env_default = os.getenv("AUDREY_DEFAULT_BACKEND", DEFAULT_BACKEND).strip().lower()
+    if env_default in {"nvidia", "nim"}:
+        return "nvidia"
+    if env_default in {"local", "ollama"}:
+        return "local"
+    return "deepseek"
 
 
 def resolve_backend_choice(raw: str | None) -> str:
