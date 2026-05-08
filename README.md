@@ -1,14 +1,11 @@
 <div align="center">
-
 <img src=".github/sidelab-gh.png" alt="Sentra SideLab" width="400" />
 <h1>AUDREY</h1>
 <h3>Advanced Universal Diagnostic & Responsive Expert Yield</h3>
-
 <p>
   <b>Sentra SideLab</b> · Clinical AI Division<br/>
   <i>by dr. Classy · Kediri, Indonesia · 2026</i>
 </p>
-
 <p>
   <img src="https://img.shields.io/badge/status-research_prototype-orange" />
   <img src="https://img.shields.io/badge/offline-100%25-brightgreen" />
