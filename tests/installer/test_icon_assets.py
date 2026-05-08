@@ -39,6 +39,13 @@ class IconAssetTests(unittest.TestCase):
             self.assertTrue(path.exists(), f"Missing icon asset: {path}")
             self.assertEqual(read_png_size(path), (size, size))
 
+    def test_desktop_icon_source_and_layers_have_expected_sizes(self):
+        icons_dir = ROOT / "public" / "icons"
+
+        self.assertEqual(read_png_size(icons_dir / "sidelab-desktop.png"), (512, 512))
+        for size in [16, 24, 32, 48, 64, 128, 256, 512]:
+            self.assertEqual(read_png_size(icons_dir / f"sidelab-desktop-{size}.png"), (size, size))
+
     def test_installer_ico_contains_expected_windows_layers(self):
         path = ROOT / "installer" / "assets" / "sidelab.ico"
         self.assertTrue(path.exists(), "installer/assets/sidelab.ico should exist")

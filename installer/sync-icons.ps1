@@ -72,6 +72,94 @@ function New-ScaledPng {
     }
 }
 
+function Get-ContentBounds {
+    param(
+        [Parameter(Mandatory = $true)]
+        [System.Drawing.Bitmap]$Bitmap,
+        [int]$Threshold = 6
+    )
+
+    $minX = $Bitmap.Width
+    $minY = $Bitmap.Height
+    $maxX = -1
+    $maxY = -1
+
+    for ($y = 0; $y -lt $Bitmap.Height; $y++) {
+        for ($x = 0; $x -lt $Bitmap.Width; $x++) {
+            $pixel = $Bitmap.GetPixel($x, $y)
+            if (($pixel.R -gt $Threshold) -or ($pixel.G -gt $Threshold) -or ($pixel.B -gt $Threshold)) {
+                if ($x -lt $minX) { $minX = $x }
+                if ($y -lt $minY) { $minY = $y }
+                if ($x -gt $maxX) { $maxX = $x }
+                if ($y -gt $maxY) { $maxY = $y }
+            }
+        }
+    }
+
+    if ($maxX -lt 0 -or $maxY -lt 0) {
+        throw "Tidak menemukan konten visual untuk crop ikon desktop."
+    }
+
+    return [pscustomobject]@{
+        MinX = $minX
+        MinY = $minY
+        MaxX = $maxX
+        MaxY = $maxY
+    }
+}
+
+function New-DesktopIconSource {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$SourcePath,
+        [Parameter(Mandatory = $true)]
+        [string]$OutputPath,
+        [int]$OutputSize = 512
+    )
+
+    $bitmap = [System.Drawing.Bitmap]::FromFile($SourcePath)
+    try {
+        $bounds = Get-ContentBounds -Bitmap $bitmap
+        $contentWidth = $bounds.MaxX - $bounds.MinX + 1
+        $contentHeight = $bounds.MaxY - $bounds.MinY + 1
+        $squareSize = [Math]::Max($contentWidth, $contentHeight)
+        $padding = [int][Math]::Ceiling($squareSize * 0.04)
+        $cropSize = [Math]::Min([Math]::Max($squareSize + ($padding * 2), 256), [Math]::Min($bitmap.Width, $bitmap.Height))
+        $centerX = ($bounds.MinX + $bounds.MaxX) / 2.0
+        $centerY = ($bounds.MinY + $bounds.MaxY) / 2.0
+        $startX = [int][Math]::Round($centerX - ($cropSize / 2.0))
+        $startY = [int][Math]::Round($centerY - ($cropSize / 2.0))
+        if ($startX -lt 0) { $startX = 0 }
+        if ($startY -lt 0) { $startY = 0 }
+        if ($startX + $cropSize -gt $bitmap.Width) { $startX = $bitmap.Width - $cropSize }
+        if ($startY + $cropSize -gt $bitmap.Height) { $startY = $bitmap.Height - $cropSize }
+
+        $target = New-Object System.Drawing.Bitmap $OutputSize, $OutputSize
+        $graphics = [System.Drawing.Graphics]::FromImage($target)
+        try {
+            $graphics.Clear([System.Drawing.Color]::Transparent)
+            $graphics.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
+            $graphics.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::HighQuality
+            $graphics.PixelOffsetMode = [System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality
+            $graphics.CompositingQuality = [System.Drawing.Drawing2D.CompositingQuality]::HighQuality
+            $srcRect = New-Object System.Drawing.Rectangle $startX, $startY, $cropSize, $cropSize
+            $dstRect = New-Object System.Drawing.Rectangle 0, 0, $OutputSize, $OutputSize
+            $graphics.DrawImage($bitmap, $dstRect, $srcRect, [System.Drawing.GraphicsUnit]::Pixel)
+
+            $parent = Split-Path -Parent $OutputPath
+            if ($parent) {
+                New-Item -ItemType Directory -Force -Path $parent | Out-Null
+            }
+            $target.Save($OutputPath, [System.Drawing.Imaging.ImageFormat]::Png)
+        } finally {
+            $graphics.Dispose()
+            $target.Dispose()
+        }
+    } finally {
+        $bitmap.Dispose()
+    }
+}
+
 function New-IcoFromPngs {
     param(
         [Parameter(Mandatory = $true)]
@@ -132,6 +220,7 @@ $publicIconsDir = Join-Path $root "public\icons"
 $installerAssetsDir = Join-Path $root "installer\assets"
 
 $appSourcePath = Join-Path $publicIconsDir "sidelab.png"
+$desktopSourcePath = Join-Path $publicIconsDir "sidelab-desktop.png"
 $logoSourcePath = Join-Path $publicIconsDir "sidelab-logo.png"
 $horizontalSourcePath = Join-Path $publicIconsDir "sidelab-logo2.png"
 $verticalSourcePath = Join-Path $publicIconsDir "sidelab-logo3.png"
@@ -165,6 +254,17 @@ try {
     New-SquarePng -SourceImage $sourceImage -Size $appleTouchSize -OutputPath (Join-Path $publicIconsDir "apple-touch-icon.png")
 } finally {
     $sourceImage.Dispose()
+}
+
+New-DesktopIconSource -SourcePath $appSourcePath -OutputPath $desktopSourcePath
+
+$desktopIconImage = [System.Drawing.Image]::FromFile($desktopSourcePath)
+try {
+    foreach ($size in $appIconSizes) {
+        New-SquarePng -SourceImage $desktopIconImage -Size $size -OutputPath (Join-Path $publicIconsDir "sidelab-desktop-$size.png")
+    }
+} finally {
+    $desktopIconImage.Dispose()
 }
 
 $logoImage = [System.Drawing.Image]::FromFile($logoSourcePath)
@@ -210,7 +310,7 @@ $faviconPngs = foreach ($size in $faviconIcoSizes) {
 }
 
 $icoPngs = foreach ($size in @(16, 24, 32, 48, 64, 128, 256)) {
-    Join-Path $publicIconsDir "sidelab-$size.png"
+    Join-Path $publicIconsDir "sidelab-desktop-$size.png"
 }
 
 New-IcoFromPngs -PngPaths $faviconPngs -OutputPath (Join-Path $publicIconsDir "favicon.ico")
