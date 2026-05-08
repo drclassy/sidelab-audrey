@@ -1,10 +1,11 @@
 {
+  "_brand": "Masterplan and masterpiece by classy+.",
   "_metadata": {
     "version": "1.0.0",
-    "description": "ICD-10 Indonesia kamus lookup untuk AUDREY",
+    "description": "ICD-10 Indonesia kamus lookup untuk SIDELAB",
     "source_url": "https://github.com/fendis0709/icd-10",
     "source_origin": "WHO ICD-10 2019",
-    "license_note": "Source repo tidak punya license eksplisit. Data ICD-10 itu sendiri adalah public WHO classification. Penggunaan: educational/personal lookup di AUDREY.",
+    "license_note": "Source repo tidak punya license eksplisit. Data ICD-10 itu sendiri adalah public WHO classification. Penggunaan: educational/personal lookup di SIDELAB.",
     "total_codes": 10469,
     "skipped_invalid": 0,
     "skipped_duplicate": 0,

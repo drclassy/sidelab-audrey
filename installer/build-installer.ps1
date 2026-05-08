@@ -1,3 +1,4 @@
+# Designed and constructed by classy+.
 param(
     [switch]$SkipWheelhouse,
     [switch]$SkipCompile,
@@ -51,7 +52,7 @@ $DistDir = Join-Path $Root "dist"
 $WheelhouseDir = Join-Path $InstallerDir "wheelhouse"
 $PythonEmbedDir = Join-Path $InstallerDir "python-embed"
 $VendorDir = Join-Path $InstallerDir "vendor"
-$IssPath = Join-Path $InstallerDir "audrey.iss"
+$IssPath = Join-Path $InstallerDir "sidelab.iss"
 
 if (-not $PythonEmbedZipPath) {
     $PythonEmbedZipPath = Join-Path $PythonEmbedDir "python-embed.zip"
@@ -66,7 +67,7 @@ if (-not $OllamaInstallerPath) {
 New-Item -ItemType Directory -Force -Path $LogsDir, $StagingAppDir, $StagingBootstrapDir, $DistDir | Out-Null
 
 Assert-FileExists (Join-Path $AssetsDir "classy.png") "Branding image wajib ada sebelum build installer."
-Assert-FileExists (Join-Path $AssetsDir "audrey.ico") "Icon .ico wajib ada untuk installer dan shortcut desktop."
+Assert-FileExists (Join-Path $AssetsDir "sidelab.ico") "Icon .ico wajib ada untuk installer dan shortcut desktop."
 Assert-FileExists $PythonEmbedZipPath "Python embedded zip belum disiapkan."
 Assert-FileExists $GetPipPath "get-pip.py belum disiapkan untuk bootstrap pip di runtime embedded."
 Assert-FileExists $IssPath "File Inno Setup script tidak ditemukan."
@@ -78,19 +79,19 @@ if (Test-Path $StagingDir) {
 New-Item -ItemType Directory -Force -Path $StagingAppDir, $StagingBootstrapDir | Out-Null
 
 $rootFiles = @(
-    "AUDREY.bat",
+    "SIDELAB.bat",
     "run.bat",
     "install.bat",
-    "diagnose-audrey.bat",
+    "diagnose-sidelab.bat",
     "medgemma_chat.py",
     "requirements.txt",
     ".env.example",
     "README-INSTALL.md"
 )
 $rootDirs = @(
-    "audrey_icd",
-    "audrey_notify",
-    "audrey_llm",
+    "sidelab_icd",
+    "sidelab_notify",
+    "sidelab_llm",
     "data",
     "sounds"
 )
@@ -109,7 +110,7 @@ Get-ChildItem -Path $StagingAppDir -Recurse -File -Include "*.pyc","*.pyo" -Erro
 
 $buildManifest = [ordered]@{
     built_at = (Get-Date).ToString("s")
-    app_name = "AUDREY"
+    app_name = "SIDELAB"
     default_backend = "deepseek"
     default_model = "deepseek-v4-flash"
     includes_sound = Test-Path (Join-Path $StagingAppDir "sounds\notif.mp3")
@@ -135,10 +136,10 @@ if ($SkipCompile) {
 
 $iscc = Resolve-Iscc
 if (-not $iscc) {
-    throw "ISCC.exe tidak ditemukan. Install Inno Setup 6 terlebih dahulu untuk membangun AUDREY-SETUP.exe."
+    throw "ISCC.exe tidak ditemukan. Install Inno Setup 6 terlebih dahulu untuk membangun SIDELAB-SETUP.exe."
 }
 
-Write-Step "Compiling AUDREY-SETUP.exe"
+Write-Step "Compiling SIDELAB-SETUP.exe"
 & $iscc `
     "/DAppSource=$StagingAppDir" `
     "/DPythonEmbedZip=$PythonEmbedZipPath" `

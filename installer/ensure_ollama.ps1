@@ -1,3 +1,4 @@
+# Designed and constructed by classy+.
 param(
     [Parameter(Mandatory = $true)]
     [string]$InstallRoot

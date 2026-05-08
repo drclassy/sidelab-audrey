@@ -1,3 +1,4 @@
+# Designed and constructed by classy+.
 param(
     [Parameter(Mandatory = $true)]
     [string]$InstallRoot,
@@ -89,4 +90,4 @@ $state = [ordered]@{
 }
 $state | ConvertTo-Json | Set-Content -Path $StateFile -Encoding UTF8
 
-Write-Host "AUDREY first-run bootstrap completed." -ForegroundColor Green
+Write-Host "SIDELAB first-run bootstrap completed." -ForegroundColor Green

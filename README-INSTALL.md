@@ -1,6 +1,7 @@
-# AUDREY Install Guide
+<!-- classy+'s vision, brought to life. -->
+# SIDELAB Install Guide
 
-Panduan ini dibuat untuk PC Puskesmas atau PC baru yang belum pernah dipakai menjalankan AUDREY.
+Panduan ini dibuat untuk PC Puskesmas atau PC baru yang belum pernah dipakai menjalankan SIDELAB.
 
 ## Mode yang Didukung
 
@@ -9,7 +10,7 @@ Mode default untuk PC 8GB atau unit yang tidak sanggup inference lokal.
 
 Yang berjalan lokal:
 - Python
-- CLI AUDREY
+- CLI SIDELAB
 - aturan klinis, ICD, template, Telegram
 
 Yang berjalan di cloud:
@@ -26,7 +27,7 @@ Semua berjalan di 1 PC:
 - Python
 - Ollama
 - model lokal
-- CLI AUDREY
+- CLI SIDELAB
 
 Mode ini tetap tersedia sebagai fallback, tetapi lebih cocok untuk PC yang lebih kuat.
 
@@ -38,16 +39,16 @@ Rekomendasi minimum:
 
 ## File Penting
 
-- `AUDREY.bat`
-  Launcher utama. User cukup double-click `AUDREY.bat`.
+- `SIDELAB.bat`
+  Launcher utama. User cukup double-click `SIDELAB.bat`.
 
 - `install.bat`
   Helper internal untuk setup awal: venv, dependency, `.env`, dan pengecekan opsional Ollama.
 
 - `run.bat`
-  Helper internal untuk menjalankan AUDREY memakai virtual environment lokal.
+  Helper internal untuk menjalankan SIDELAB memakai virtual environment lokal.
 
-- `diagnose-audrey.bat`
+- `diagnose-sidelab.bat`
   Membuat laporan diagnostik jika setup atau runtime gagal.
 
 - `.env`
@@ -64,11 +65,11 @@ Rekomendasi minimum:
 2. Jika ingin mode Local, install Ollama dari:
    `https://ollama.com/download`
 
-3. Buka folder AUDREY.
+3. Buka folder SIDELAB.
 
-4. double-click `AUDREY.bat`
+4. double-click `SIDELAB.bat`
 
-5. Audrey akan otomatis:
+5. SideLab akan otomatis:
    - setup bila PC ini belum pernah dipakai
    - lalu langsung menjalankan aplikasi
 
@@ -87,7 +88,7 @@ TELEGRAM_CHAT_ID=isi_chat_id
 
 Jalankan:
 
-`diagnose-audrey.bat`
+`diagnose-sidelab.bat`
 
 File laporan akan dibuat di folder:
 
@@ -111,7 +112,7 @@ Kemungkinan penyebab:
 Solusi awal:
 - cek file `.env`
 - coba mode Local jika Ollama tersedia
-- jalankan `diagnose-audrey.bat`
+- jalankan `diagnose-sidelab.bat`
 
 ### Ollama ada, tapi model tidak bisa jalan
 Kemungkinan penyebab:
@@ -126,7 +127,7 @@ Gejala umum:
 Solusi awal:
 - restart komputer
 - buka aplikasi Ollama dan pastikan aktif
-- jalankan `diagnose-audrey.bat`
+- jalankan `diagnose-sidelab.bat`
 
 ### Python terinstall, tetapi package gagal
 Kemungkinan penyebab:

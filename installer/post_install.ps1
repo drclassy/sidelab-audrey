@@ -1,3 +1,4 @@
+# Designed and constructed by classy+.
 param(
     [Parameter(Mandatory = $true)]
     [string]$InstallRoot
@@ -50,7 +51,7 @@ Enable-EmbeddedPythonSite -PythonRoot $PythonRoot
 Write-Step "Bootstrapping pip"
 & $PythonExe $GetPipPy --no-warn-script-location
 
-Write-Step "Installing Audrey dependencies from wheelhouse"
+Write-Step "Installing SideLab dependencies from wheelhouse"
 & $PythonExe -m pip install --no-index --find-links $WheelhouseDir -r (Join-Path $InstallRoot "requirements.txt")
 
 if ((Test-Path $EnvExample) -and (-not (Test-Path $EnvFile))) {
@@ -61,4 +62,4 @@ Write-Step "Creating initial .env file"
 Write-Step "Running first-run smoke test"
 & (Join-Path $BootstrapDir "first_run.ps1") -InstallRoot $InstallRoot -ModelName "deepseek-v4-flash"
 
-Write-Host "AUDREY post-install bootstrap completed." -ForegroundColor Green
+Write-Host "SIDELAB post-install bootstrap completed." -ForegroundColor Green

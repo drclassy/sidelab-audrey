@@ -1,4 +1,5 @@
 {
+  "_brand": "Masterplan and masterpiece by classy+.",
   "demam": {
     "clinical_entity": "Demam",
     "sifat": {
@@ -84,8 +85,17 @@
         "Auskultasi Pulmo",
         "Tanda Vital"
       ],
-      "lab": ["DL", "LED/CRP", "SGOT/SGPT/BUN/SK", "Kultur Darah"],
-      "penunjang": ["Foto Thorax AP", "USG Abdomen", "Pungsi Lumbal"]
+      "lab": [
+        "DL",
+        "LED/CRP",
+        "SGOT/SGPT/BUN/SK",
+        "Kultur Darah"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "USG Abdomen",
+        "Pungsi Lumbal"
+      ]
     }
   },
   "batuk": {
@@ -181,8 +191,17 @@
         "Suhu",
         "Tanda Vital/SpO2"
       ],
-      "lab": ["DL", "Kultur Sputum", "CRP/Prokalsitonin", "AGD"],
-      "penunjang": ["Foto Thorax AP", "Spirometri", "CT-Scan Thorax"]
+      "lab": [
+        "DL",
+        "Kultur Sputum",
+        "CRP/Prokalsitonin",
+        "AGD"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "Spirometri",
+        "CT-Scan Thorax"
+      ]
     }
   },
   "pilek": {
@@ -286,7 +305,11 @@
         "Kultur Sekret Hidung",
         "IgE Total/Skin Prick"
       ],
-      "penunjang": ["Foto Sinus", "CT-Scan Sinus", "Endoskopi Hidung"]
+      "penunjang": [
+        "Foto Sinus",
+        "CT-Scan Sinus",
+        "Endoskopi Hidung"
+      ]
     }
   },
   "sakit kepala": {
@@ -384,8 +407,17 @@
         "Funduskopi",
         "Tanda Meningeal"
       ],
-      "lab": ["DL", "Elektrolit", "SGOT/SGPT/BUN/SK", "Pungsi Lumbal"],
-      "penunjang": ["CT-Scan Kepala", "MRI Kepala", "EEG"]
+      "lab": [
+        "DL",
+        "Elektrolit",
+        "SGOT/SGPT/BUN/SK",
+        "Pungsi Lumbal"
+      ],
+      "penunjang": [
+        "CT-Scan Kepala",
+        "MRI Kepala",
+        "EEG"
+      ]
     }
   },
   "nyeri tenggorokan": {
@@ -483,8 +515,17 @@
         "Inspeksi THT",
         "Suhu"
       ],
-      "lab": ["Rapid Strep/Kultur", "DL", "CRP/Prokalsitonin", "Monospot"],
-      "penunjang": ["Foto Leher", "Laringoskopi", "USG Leher"]
+      "lab": [
+        "Rapid Strep/Kultur",
+        "DL",
+        "CRP/Prokalsitonin",
+        "Monospot"
+      ],
+      "penunjang": [
+        "Foto Leher",
+        "Laringoskopi",
+        "USG Leher"
+      ]
     }
   },
   "sesak napas": {
@@ -582,8 +623,17 @@
         "Palpasi Trakea",
         "Tanda Vital"
       ],
-      "lab": ["AGD", "DL", "Elektrolit", "D-Dimer"],
-      "penunjang": ["Foto Thorax AP", "EKG", "Spirometri"]
+      "lab": [
+        "AGD",
+        "DL",
+        "Elektrolit",
+        "D-Dimer"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "EKG",
+        "Spirometri"
+      ]
     }
   },
   "mual": {
@@ -671,8 +721,17 @@
         "Status Neurologis",
         "Tes Keseimbangan"
       ],
-      "lab": ["DL", "Elektrolit", "SGOT/SGPT/BUN/SK", "PPT"],
-      "penunjang": ["USG Abdomen", "Endoskopi", "CT-Scan Kepala"]
+      "lab": [
+        "DL",
+        "Elektrolit",
+        "SGOT/SGPT/BUN/SK",
+        "PPT"
+      ],
+      "penunjang": [
+        "USG Abdomen",
+        "Endoskopi",
+        "CT-Scan Kepala"
+      ]
     }
   },
   "muntah": {
@@ -760,8 +819,17 @@
         "Tanda Vital",
         "Status Neurologis"
       ],
-      "lab": ["DL", "Elektrolit", "BUN/SK", "Amilase/Lipase"],
-      "penunjang": ["USG Abdomen", "Endoskopi/EGDS", "BNO"]
+      "lab": [
+        "DL",
+        "Elektrolit",
+        "BUN/SK",
+        "Amilase/Lipase"
+      ],
+      "penunjang": [
+        "USG Abdomen",
+        "Endoskopi/EGDS",
+        "BNO"
+      ]
     }
   },
   "diare": {
@@ -849,8 +917,17 @@
         "Status Hidrasi",
         "Suhu"
       ],
-      "lab": ["FL", "Kultur Feses", "Elektrolit", "DL"],
-      "penunjang": ["Kolonoskopi", "USG Abdomen", "BNO"]
+      "lab": [
+        "FL",
+        "Kultur Feses",
+        "Elektrolit",
+        "DL"
+      ],
+      "penunjang": [
+        "Kolonoskopi",
+        "USG Abdomen",
+        "BNO"
+      ]
     }
   },
   "nyeri perut": {
@@ -948,8 +1025,17 @@
         "Tanda Peritonitis",
         "RT"
       ],
-      "lab": ["DL", "Amilase/Lipase", "SGOT/SGPT", "UL"],
-      "penunjang": ["USG Abdomen", "BNO", "CT-Scan Abdomen"]
+      "lab": [
+        "DL",
+        "Amilase/Lipase",
+        "SGOT/SGPT",
+        "UL"
+      ],
+      "penunjang": [
+        "USG Abdomen",
+        "BNO",
+        "CT-Scan Abdomen"
+      ]
     }
   },
   "nyeri dada": {
@@ -1043,8 +1129,17 @@
         "Palpasi Epigastrium",
         "Inspeksi Kulit"
       ],
-      "lab": ["EKG", "Troponin", "DL", "D-Dimer"],
-      "penunjang": ["Foto Thorax AP", "Echocardiografi", "CT-Scan Thorax"]
+      "lab": [
+        "EKG",
+        "Troponin",
+        "DL",
+        "D-Dimer"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "Echocardiografi",
+        "CT-Scan Thorax"
+      ]
     }
   },
   "pusing / vertigo": {
@@ -1142,8 +1237,17 @@
         "Otoskopi",
         "Status Neurologis"
       ],
-      "lab": ["DL/GDS", "TFT", "Elektrolit/BUN/SK", "Serologi"],
-      "penunjang": ["Audiometri", "MRI Kepala", "VNG"]
+      "lab": [
+        "DL/GDS",
+        "TFT",
+        "Elektrolit/BUN/SK",
+        "Serologi"
+      ],
+      "penunjang": [
+        "Audiometri",
+        "MRI Kepala",
+        "VNG"
+      ]
     }
   },
   "lemas / fatigue": {
@@ -1231,8 +1335,18 @@
         "Auskultasi Cor/Pulmo",
         "Status Neurologis"
       ],
-      "lab": ["Hb/Ht", "GDP", "TSH/FT4", "Elektrolit", "LED/CRP"],
-      "penunjang": ["EKG", "Foto Thorax AP", "USG Abdomen"]
+      "lab": [
+        "Hb/Ht",
+        "GDP",
+        "TSH/FT4",
+        "Elektrolit",
+        "LED/CRP"
+      ],
+      "penunjang": [
+        "EKG",
+        "Foto Thorax AP",
+        "USG Abdomen"
+      ]
     }
   },
   "nyeri punggung": {
@@ -1330,8 +1444,17 @@
         "SLR Test",
         "Gait Assessment"
       ],
-      "lab": ["DL/LED/CRP", "BUN/SK/Elektrolit", "LED/CRP", "UL"],
-      "penunjang": ["Foto Vertebra", "MRI Spine", "CT-Scan"]
+      "lab": [
+        "DL/LED/CRP",
+        "BUN/SK/Elektrolit",
+        "LED/CRP",
+        "UL"
+      ],
+      "penunjang": [
+        "Foto Vertebra",
+        "MRI Spine",
+        "CT-Scan"
+      ]
     }
   },
   "nyeri pinggang": {
@@ -1429,8 +1552,17 @@
         "Status Hidrasi",
         "Tanda Vital"
       ],
-      "lab": ["UL", "BUN/SK", "DL", "Kultur Urin"],
-      "penunjang": ["USG Ginjal", "BNO", "CT-Scan Abdomen"]
+      "lab": [
+        "UL",
+        "BUN/SK",
+        "DL",
+        "Kultur Urin"
+      ],
+      "penunjang": [
+        "USG Ginjal",
+        "BNO",
+        "CT-Scan Abdomen"
+      ]
     }
   },
   "nyeri sendi": {
@@ -1528,8 +1660,17 @@
         "Tes Stabilitas Sendi",
         "Gait Assessment"
       ],
-      "lab": ["DL", "LED/CRP", "RF/Anti-CCP", "Asam Urat"],
-      "penunjang": ["Foto Sendi", "USG Sendi", "MRI Sendi"]
+      "lab": [
+        "DL",
+        "LED/CRP",
+        "RF/Anti-CCP",
+        "Asam Urat"
+      ],
+      "penunjang": [
+        "Foto Sendi",
+        "USG Sendi",
+        "MRI Sendi"
+      ]
     }
   },
   "gatal kulit": {
@@ -1625,8 +1766,17 @@
         "Inspeksi Kulit",
         "Palpasi KGB"
       ],
-      "lab": ["DL", "SGOT/SGPT/BUN/SK", "IgE Total", "Kultur Kulit"],
-      "penunjang": ["Biopsi Kulit", "Patch Test", "Dermatoskopi"]
+      "lab": [
+        "DL",
+        "SGOT/SGPT/BUN/SK",
+        "IgE Total",
+        "Kultur Kulit"
+      ],
+      "penunjang": [
+        "Biopsi Kulit",
+        "Patch Test",
+        "Dermatoskopi"
+      ]
     }
   },
   "ruam kulit": {
@@ -1728,7 +1878,11 @@
         "ASO/Viral Panel",
         "Biopsi Kulit"
       ],
-      "penunjang": ["Foto Dokumentasi", "Kultur Kulit", "Patch Test"]
+      "penunjang": [
+        "Foto Dokumentasi",
+        "Kultur Kulit",
+        "Patch Test"
+      ]
     }
   },
   "bengkak kaki": {
@@ -1826,8 +1980,17 @@
         "Palpasi Nadi Perifer",
         "Auskultasi Cor/Pulmo"
       ],
-      "lab": ["BUN/SK", "Albumin", "D-Dimer", "Elektrolit"],
-      "penunjang": ["USG Doppler Vena", "Foto Thorax AP", "Echocardiografi"]
+      "lab": [
+        "BUN/SK",
+        "Albumin",
+        "D-Dimer",
+        "Elektrolit"
+      ],
+      "penunjang": [
+        "USG Doppler Vena",
+        "Foto Thorax AP",
+        "Echocardiografi"
+      ]
     }
   },
   "sulit bak": {
@@ -1925,8 +2088,17 @@
         "Inspeksi Genitalia",
         "Tanda Vital"
       ],
-      "lab": ["UL", "DL", "Kultur Urin", "BUN/SK"],
-      "penunjang": ["USG Abdomen", "Uroflowmetri", "Sistoskopi"]
+      "lab": [
+        "UL",
+        "DL",
+        "Kultur Urin",
+        "BUN/SK"
+      ],
+      "penunjang": [
+        "USG Abdomen",
+        "Uroflowmetri",
+        "Sistoskopi"
+      ]
     }
   },
   "nyeri bak": {
@@ -2022,8 +2194,17 @@
         "Palpasi Abdomen",
         "Tanda Vital"
       ],
-      "lab": ["UL", "Kultur Urin", "DL", "SK"],
-      "penunjang": ["USG Ginjal", "Sistoskopi", "CT-Scan Abdomen"]
+      "lab": [
+        "UL",
+        "Kultur Urin",
+        "DL",
+        "SK"
+      ],
+      "penunjang": [
+        "USG Ginjal",
+        "Sistoskopi",
+        "CT-Scan Abdomen"
+      ]
     }
   },
   "perdarahan": {
@@ -2119,8 +2300,17 @@
         "Inspeksi Mukosa",
         "Status Neurologis"
       ],
-      "lab": ["Hb/Ht", "Trombosit", "BT/CT", "PT/aPTT"],
-      "penunjang": ["Endoskopi/EGDS", "CT-Scan Abdomen", "USG"]
+      "lab": [
+        "Hb/Ht",
+        "Trombosit",
+        "BT/CT",
+        "PT/aPTT"
+      ],
+      "penunjang": [
+        "Endoskopi/EGDS",
+        "CT-Scan Abdomen",
+        "USG"
+      ]
     }
   },
   "keputihan": {
@@ -2208,8 +2398,17 @@
         "Preparat KOH/Basah",
         "pH Vagina"
       ],
-      "lab": ["Mikroskopis Vaginal", "Kultur Vaginal", "PCR Trichomonas", "UL"],
-      "penunjang": ["USG Pelvis", "Konsultasi Ginekologi", "PPT"]
+      "lab": [
+        "Mikroskopis Vaginal",
+        "Kultur Vaginal",
+        "PCR Trichomonas",
+        "UL"
+      ],
+      "penunjang": [
+        "USG Pelvis",
+        "Konsultasi Ginekologi",
+        "PPT"
+      ]
     }
   },
   "nyeri haid": {
@@ -2303,8 +2502,17 @@
         "Inspeksi Abdomen",
         "Nyeri Tekan Panggul"
       ],
-      "lab": ["DL", "UL", "PPT", "LED/CRP"],
-      "penunjang": ["USG Pelvis", "Laparoskopi", "MRI Pelvis"]
+      "lab": [
+        "DL",
+        "UL",
+        "PPT",
+        "LED/CRP"
+      ],
+      "penunjang": [
+        "USG Pelvis",
+        "Laparoskopi",
+        "MRI Pelvis"
+      ]
     }
   },
   "haid tidak teratur": {
@@ -2392,8 +2600,17 @@
         "BB/IMT",
         "Tanda Hiperandrogen"
       ],
-      "lab": ["PPT", "FSH/LH/Prolaktin/TSH", "DL", "TFT"],
-      "penunjang": ["USG Pelvis", "Histeroskopi", "Biopsi Endometrium"]
+      "lab": [
+        "PPT",
+        "FSH/LH/Prolaktin/TSH",
+        "DL",
+        "TFT"
+      ],
+      "penunjang": [
+        "USG Pelvis",
+        "Histeroskopi",
+        "Biopsi Endometrium"
+      ]
     }
   },
   "tidak haid": {
@@ -2481,8 +2698,17 @@
         "BB/IMT",
         "Tanda Hiperandrogen"
       ],
-      "lab": ["PPT", "FSH/LH/Prolaktin/TSH", "TFT", "Androgen"],
-      "penunjang": ["USG Pelvis", "MRI Hipofisis", "Histeroskopi"]
+      "lab": [
+        "PPT",
+        "FSH/LH/Prolaktin/TSH",
+        "TFT",
+        "Androgen"
+      ],
+      "penunjang": [
+        "USG Pelvis",
+        "MRI Hipofisis",
+        "Histeroskopi"
+      ]
     }
   },
   "berdebar-debar": {
@@ -2570,8 +2796,17 @@
         "Status Mental",
         "Palpasi Thorax"
       ],
-      "lab": ["EKG", "DL/Elektrolit", "TFT", "Troponin"],
-      "penunjang": ["Echocardiografi", "Holter Monitor", "Stress Test"]
+      "lab": [
+        "EKG",
+        "DL/Elektrolit",
+        "TFT",
+        "Troponin"
+      ],
+      "penunjang": [
+        "Echocardiografi",
+        "Holter Monitor",
+        "Stress Test"
+      ]
     }
   },
   "pingsan / sinkop": {
@@ -2652,8 +2887,17 @@
         "Status Neurologis",
         "Status Mental"
       ],
-      "lab": ["Elektrolit", "GDS", "Hb", "TFT"],
-      "penunjang": ["EKG", "Echocardiografi", "Holter Monitor"]
+      "lab": [
+        "Elektrolit",
+        "GDS",
+        "Hb",
+        "TFT"
+      ],
+      "penunjang": [
+        "EKG",
+        "Echocardiografi",
+        "Holter Monitor"
+      ]
     }
   },
   "kejang": {
@@ -2751,8 +2995,17 @@
         "Observasi Post-Iktal",
         "Refleks Pupil"
       ],
-      "lab": ["DL/Elektrolit", "GDS", "Toksikologi", "Pungsi Lumbal"],
-      "penunjang": ["EEG", "CT-Scan Kepala", "EKG"]
+      "lab": [
+        "DL/Elektrolit",
+        "GDS",
+        "Toksikologi",
+        "Pungsi Lumbal"
+      ],
+      "penunjang": [
+        "EEG",
+        "CT-Scan Kepala",
+        "EKG"
+      ]
     }
   },
   "kebas / kesemutan": {
@@ -2850,8 +3103,17 @@
         "Tes Koordinasi",
         "Tinel Sign"
       ],
-      "lab": ["GDP/HbA1c", "Vit B12/Folat", "TSH/FT4", "ANA/Anti-dsDNA"],
-      "penunjang": ["EMG/NCS", "MRI Spine", "USG Saraf"]
+      "lab": [
+        "GDP/HbA1c",
+        "Vit B12/Folat",
+        "TSH/FT4",
+        "ANA/Anti-dsDNA"
+      ],
+      "penunjang": [
+        "EMG/NCS",
+        "MRI Spine",
+        "USG Saraf"
+      ]
     }
   },
   "kelemahan anggota gerak": {
@@ -2949,8 +3211,17 @@
         "Tes Keseimbangan",
         "Sensorik"
       ],
-      "lab": ["Elektrolit", "CK", "TFT", "DL"],
-      "penunjang": ["MRI Kepala", "EMG/NCS", "CT-Scan Kepala"]
+      "lab": [
+        "Elektrolit",
+        "CK",
+        "TFT",
+        "DL"
+      ],
+      "penunjang": [
+        "MRI Kepala",
+        "EMG/NCS",
+        "CT-Scan Kepala"
+      ]
     }
   },
   "penglihatan kabur": {
@@ -3048,8 +3319,17 @@
         "Perimetri",
         "Refleks Pupil"
       ],
-      "lab": ["GDS", "Profil Lipid", "TFT", "DL"],
-      "penunjang": ["OCT", "FFA", "CT-Scan Kepala"]
+      "lab": [
+        "GDS",
+        "Profil Lipid",
+        "TFT",
+        "DL"
+      ],
+      "penunjang": [
+        "OCT",
+        "FFA",
+        "CT-Scan Kepala"
+      ]
     }
   },
   "mata merah": {
@@ -3147,8 +3427,17 @@
         "Tes Fluorescein",
         "Palpasi Periorbital"
       ],
-      "lab": ["Kultur Konjungtiva", "IgE Total", "DL", "PCR Viral"],
-      "penunjang": ["Tonometri", "Oftalmoskopi", "USG Mata"]
+      "lab": [
+        "Kultur Konjungtiva",
+        "IgE Total",
+        "DL",
+        "PCR Viral"
+      ],
+      "penunjang": [
+        "Tonometri",
+        "Oftalmoskopi",
+        "USG Mata"
+      ]
     }
   },
   "telinga berdenging": {
@@ -3246,8 +3535,17 @@
         "Manuver Valsalva",
         "TD"
       ],
-      "lab": ["DL", "GDP", "Profil Lipid", "TFT"],
-      "penunjang": ["Audiometri", "MRI Kepala", "Timpanometri"]
+      "lab": [
+        "DL",
+        "GDP",
+        "Profil Lipid",
+        "TFT"
+      ],
+      "penunjang": [
+        "Audiometri",
+        "MRI Kepala",
+        "Timpanometri"
+      ]
     }
   },
   "gangguan pendengaran": {
@@ -3343,8 +3641,17 @@
         "Palpasi Mastoid",
         "Tes Romberg"
       ],
-      "lab": ["DL", "GDS/Profil Lipid", "TFT", "ANA/RF"],
-      "penunjang": ["Audiometri", "Timpanometri", "MRI Kepala"]
+      "lab": [
+        "DL",
+        "GDS/Profil Lipid",
+        "TFT",
+        "ANA/RF"
+      ],
+      "penunjang": [
+        "Audiometri",
+        "Timpanometri",
+        "MRI Kepala"
+      ]
     }
   },
   "mimisan": {
@@ -3440,8 +3747,17 @@
         "Palpasi Sinus",
         "Inspeksi Petekie/Ekimosis"
       ],
-      "lab": ["Hb/Ht", "Trombosit", "BT/PT", "GD/Crossmatch"],
-      "penunjang": ["Endoskopi Hidung", "CT-Scan Sinus", "Angiografi"]
+      "lab": [
+        "Hb/Ht",
+        "Trombosit",
+        "BT/PT",
+        "GD/Crossmatch"
+      ],
+      "penunjang": [
+        "Endoskopi Hidung",
+        "CT-Scan Sinus",
+        "Angiografi"
+      ]
     }
   },
   "sulit menelan": {
@@ -3539,8 +3855,17 @@
         "Pemeriksaan N. Cranialis",
         "Tes Menelan"
       ],
-      "lab": ["DL", "Elektrolit/TFT", "Anti-AChR", "Tumor Marker"],
-      "penunjang": ["Endoskopi/EGDS", "Barium Swallow", "Manometri Esofagus"]
+      "lab": [
+        "DL",
+        "Elektrolit/TFT",
+        "Anti-AChR",
+        "Tumor Marker"
+      ],
+      "penunjang": [
+        "Endoskopi/EGDS",
+        "Barium Swallow",
+        "Manometri Esofagus"
+      ]
     }
   },
   "nafsu makan menurun": {
@@ -3621,8 +3946,17 @@
         "Palpasi Abdomen",
         "Auskultasi Abdomen"
       ],
-      "lab": ["DL", "Elektrolit/BUN/SK/SGOT/SGPT", "TFT", "GDS"],
-      "penunjang": ["USG Abdomen", "Endoskopi/EGDS", "Foto Thorax AP"]
+      "lab": [
+        "DL",
+        "Elektrolit/BUN/SK/SGOT/SGPT",
+        "TFT",
+        "GDS"
+      ],
+      "penunjang": [
+        "USG Abdomen",
+        "Endoskopi/EGDS",
+        "Foto Thorax AP"
+      ]
     }
   },
   "penurunan berat badan": {
@@ -3703,8 +4037,17 @@
         "Palpasi KGB",
         "Auskultasi Cor"
       ],
-      "lab": ["DL", "GDS/HbA1c", "SGOT/SGPT/BUN/SK", "TFT"],
-      "penunjang": ["Foto Thorax AP", "USG Abdomen", "Endoskopi"]
+      "lab": [
+        "DL",
+        "GDS/HbA1c",
+        "SGOT/SGPT/BUN/SK",
+        "TFT"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "USG Abdomen",
+        "Endoskopi"
+      ]
     }
   },
   "banyak minum": {
@@ -3785,8 +4128,17 @@
         "Status Neurologis",
         "BB/IMT"
       ],
-      "lab": ["GDP/GDS", "UL", "Elektrolit", "BUN/SK"],
-      "penunjang": ["TTGO", "Kortisol", "USG Abdomen"]
+      "lab": [
+        "GDP/GDS",
+        "UL",
+        "Elektrolit",
+        "BUN/SK"
+      ],
+      "penunjang": [
+        "TTGO",
+        "Kortisol",
+        "USG Abdomen"
+      ]
     }
   },
   "banyak kencing": {
@@ -3882,8 +4234,17 @@
         "TD",
         "Status Hidrasi"
       ],
-      "lab": ["UL", "GDS", "BUN/SK", "Kultur Urin"],
-      "penunjang": ["USG Abdomen", "Sistoskopi", "CT-Scan Abdomen"]
+      "lab": [
+        "UL",
+        "GDS",
+        "BUN/SK",
+        "Kultur Urin"
+      ],
+      "penunjang": [
+        "USG Abdomen",
+        "Sistoskopi",
+        "CT-Scan Abdomen"
+      ]
     }
   },
   "kembung": {
@@ -3971,8 +4332,17 @@
         "Palpasi Abdomen",
         "Lingkar Perut"
       ],
-      "lab": ["DL", "SGOT/SGPT", "Amilase/Lipase", "FL"],
-      "penunjang": ["BNO", "USG Abdomen", "Endoskopi"]
+      "lab": [
+        "DL",
+        "SGOT/SGPT",
+        "Amilase/Lipase",
+        "FL"
+      ],
+      "penunjang": [
+        "BNO",
+        "USG Abdomen",
+        "Endoskopi"
+      ]
     }
   },
   "sembelit": {
@@ -4060,8 +4430,17 @@
         "RT",
         "Inspeksi Anus"
       ],
-      "lab": ["DL", "Elektrolit", "TSH", "GDS"],
-      "penunjang": ["BNO", "Kolonoskopi", "Manometri Anorektal"]
+      "lab": [
+        "DL",
+        "Elektrolit",
+        "TSH",
+        "GDS"
+      ],
+      "penunjang": [
+        "BNO",
+        "Kolonoskopi",
+        "Manometri Anorektal"
+      ]
     }
   },
   "bab berdarah": {
@@ -4157,8 +4536,17 @@
         "Tanda Vital",
         "Tanda Anemia"
       ],
-      "lab": ["Hb/Ht", "DL", "PT/aPTT", "FOBT/Kultur Feses"],
-      "penunjang": ["Kolonoskopi", "Sigmoidoskopi", "CT-Scan Abdomen"]
+      "lab": [
+        "Hb/Ht",
+        "DL",
+        "PT/aPTT",
+        "FOBT/Kultur Feses"
+      ],
+      "penunjang": [
+        "Kolonoskopi",
+        "Sigmoidoskopi",
+        "CT-Scan Abdomen"
+      ]
     }
   },
   "bab hitam": {
@@ -4245,8 +4633,17 @@
         "Auskultasi Abdomen",
         "RT"
       ],
-      "lab": ["Hb/Ht", "DL", "BUN/SK", "FL/FOBT"],
-      "penunjang": ["Endoskopi/EGDS", "USG Abdomen", "CT-Scan Abdomen"]
+      "lab": [
+        "Hb/Ht",
+        "DL",
+        "BUN/SK",
+        "FL/FOBT"
+      ],
+      "penunjang": [
+        "Endoskopi/EGDS",
+        "USG Abdomen",
+        "CT-Scan Abdomen"
+      ]
     }
   },
   "bengkak wajah": {
@@ -4338,9 +4735,24 @@
       "Template 5: Anamnesa: [Bengkak Wajah] onset {Waktu}, {Sifat}, faktor pemberat {Faktor}."
     ],
     "pemeriksaan": {
-      "fisik": ["TD", "Suhu", "Edema Tungkai", "Inspeksi Oral", "Palpasi KGB"],
-      "lab": ["DL", "BUN/SK", "Protein Urin 24 Jam", "Albumin"],
-      "penunjang": ["Foto Thorax AP", "USG Ginjal", "CT-Scan Wajah"]
+      "fisik": [
+        "TD",
+        "Suhu",
+        "Edema Tungkai",
+        "Inspeksi Oral",
+        "Palpasi KGB"
+      ],
+      "lab": [
+        "DL",
+        "BUN/SK",
+        "Protein Urin 24 Jam",
+        "Albumin"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "USG Ginjal",
+        "CT-Scan Wajah"
+      ]
     }
   },
   "sesak saat berbaring": {
@@ -4438,8 +4850,17 @@
         "JVP",
         "Palpasi Hepar"
       ],
-      "lab": ["Elektrolit", "BUN/SK", "BNP/NT-proBNP", "AGD"],
-      "penunjang": ["Foto Thorax AP", "Echocardiografi", "EKG"]
+      "lab": [
+        "Elektrolit",
+        "BUN/SK",
+        "BNP/NT-proBNP",
+        "AGD"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "Echocardiografi",
+        "EKG"
+      ]
     }
   },
   "batuk darah": {
@@ -4535,8 +4956,17 @@
         "Palpasi Thorax",
         "Palpasi KGB"
       ],
-      "lab": ["DL", "BTA/Kultur Sputum", "PT/aPTT", "AGD"],
-      "penunjang": ["Foto Thorax AP", "CT-Scan Thorax", "Bronkoskopi"]
+      "lab": [
+        "DL",
+        "BTA/Kultur Sputum",
+        "PT/aPTT",
+        "AGD"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "CT-Scan Thorax",
+        "Bronkoskopi"
+      ]
     }
   },
   "nyeri betis": {
@@ -4634,8 +5064,17 @@
         "Lingkar Betis",
         "Nadi"
       ],
-      "lab": ["D-Dimer", "CK", "DL", "PT/aPTT"],
-      "penunjang": ["USG", "MRI Betis", "Angiografi"]
+      "lab": [
+        "D-Dimer",
+        "CK",
+        "DL",
+        "PT/aPTT"
+      ],
+      "penunjang": [
+        "USG",
+        "MRI Betis",
+        "Angiografi"
+      ]
     }
   },
   "kuning / ikterus": {
@@ -4727,8 +5166,17 @@
         "Inspeksi Urin/Feses",
         "Suhu"
       ],
-      "lab": ["Bilirubin Total/Direk", "SGOT/SGPT/ALP", "DL", "UL"],
-      "penunjang": ["USG Abdomen", "CT-Scan Abdomen", "Biopsi Hepar"]
+      "lab": [
+        "Bilirubin Total/Direk",
+        "SGOT/SGPT/ALP",
+        "DL",
+        "UL"
+      ],
+      "penunjang": [
+        "USG Abdomen",
+        "CT-Scan Abdomen",
+        "Biopsi Hepar"
+      ]
     }
   },
   "nyeri ulu hati": {
@@ -4816,8 +5264,17 @@
         "Perkusi Abdomen",
         "Tanda Vital"
       ],
-      "lab": ["DL", "SGOT/SGPT/Amilase/Lipase", "H. pylori", "FOBT"],
-      "penunjang": ["Endoskopi/EGDS", "USG Abdomen", "BNO"]
+      "lab": [
+        "DL",
+        "SGOT/SGPT/Amilase/Lipase",
+        "H. pylori",
+        "FOBT"
+      ],
+      "penunjang": [
+        "Endoskopi/EGDS",
+        "USG Abdomen",
+        "BNO"
+      ]
     }
   },
   "sulit tidur": {
@@ -4878,7 +5335,10 @@
         "Penilaian Status Mental",
         "Pemeriksaan Tiroid"
       ],
-      "lab": ["TSH/FT4", "GDS"],
+      "lab": [
+        "TSH/FT4",
+        "GDS"
+      ],
       "penunjang": []
     }
   },
@@ -4930,8 +5390,14 @@
       "Nyeri sendi"
     ],
     "predictive_next": {
-      "if_unilateral": ["Cedera otot lokal", "Strain muskuler"],
-      "if_bilateral": ["Infeksi virus sistemik", "Fibromyalgia"],
+      "if_unilateral": [
+        "Cedera otot lokal",
+        "Strain muskuler"
+      ],
+      "if_bilateral": [
+        "Infeksi virus sistemik",
+        "Fibromyalgia"
+      ],
       "red_flags": [
         "Urine berwarna gelap (rhabdomyolysis)",
         "Kelemahan otot progresif",
@@ -4950,7 +5416,12 @@
         "Nyeri Tekan Trigger Point",
         "Kekuatan Motorik"
       ],
-      "lab": ["DL", "LED/CRP", "CPK", "Asam Urat"],
+      "lab": [
+        "DL",
+        "LED/CRP",
+        "CPK",
+        "Asam Urat"
+      ],
       "penunjang": []
     }
   },
@@ -5001,8 +5472,14 @@
       "Gusi berdarah"
     ],
     "predictive_next": {
-      "if_unilateral": ["Karies dentis terlokalisir", "Abses periapikal"],
-      "if_bilateral": ["Gingivitis generalisata", "Periodontitis kronis"],
+      "if_unilateral": [
+        "Karies dentis terlokalisir",
+        "Abses periapikal"
+      ],
+      "if_bilateral": [
+        "Gingivitis generalisata",
+        "Periodontitis kronis"
+      ],
       "red_flags": [
         "Trismus (sulit buka mulut)",
         "Demam tinggi + bengkak submandibula (Ludwig angina)",
@@ -5021,8 +5498,13 @@
         "Palpasi Gusi",
         "Tes Vitalitas Pulpa"
       ],
-      "lab": ["DL"],
-      "penunjang": ["Foto Panoramik", "Foto Periapikal"]
+      "lab": [
+        "DL"
+      ],
+      "penunjang": [
+        "Foto Panoramik",
+        "Foto Periapikal"
+      ]
     }
   },
   "tengkuk berat": {
@@ -5047,7 +5529,12 @@
         "Leher kaku susah menoleh"
       ]
     },
-    "lokasi": ["Nuchal/tengkuk", "Leher posterior", "Oksipital", "Bahu atas"],
+    "lokasi": [
+      "Nuchal/tengkuk",
+      "Leher posterior",
+      "Oksipital",
+      "Bahu atas"
+    ],
     "durasi": [
       "Sejak tadi pagi",
       "Hilang timbul 1 minggu",
@@ -5063,8 +5550,14 @@
       "Mimisan"
     ],
     "predictive_next": {
-      "if_unilateral": ["Tortikolis", "Saraf terjepit servikal"],
-      "if_bilateral": ["Hipertensi", "Tension headache"],
+      "if_unilateral": [
+        "Tortikolis",
+        "Saraf terjepit servikal"
+      ],
+      "if_bilateral": [
+        "Hipertensi",
+        "Tension headache"
+      ],
       "red_flags": [
         "TD sistolik > 180 mmHg",
         "Pandangan kabur mendadak",
@@ -5083,8 +5576,14 @@
         "ROM Leher",
         "Tanda Rangsang Meningeal"
       ],
-      "lab": ["Profil Lipid", "GDS", "BUN/SK"],
-      "penunjang": ["Foto Servikal AP/Lateral"]
+      "lab": [
+        "Profil Lipid",
+        "GDS",
+        "BUN/SK"
+      ],
+      "penunjang": [
+        "Foto Servikal AP/Lateral"
+      ]
     }
   },
   "luka sulit sembuh": {
@@ -5131,8 +5630,14 @@
       "Penurunan berat badan"
     ],
     "predictive_next": {
-      "if_unilateral": ["Ulkus diabetikum", "Insufisiensi arteri"],
-      "if_bilateral": ["Neuropati diabetik", "Insufisiensi vena"],
+      "if_unilateral": [
+        "Ulkus diabetikum",
+        "Insufisiensi arteri"
+      ],
+      "if_bilateral": [
+        "Neuropati diabetik",
+        "Insufisiensi vena"
+      ],
       "red_flags": [
         "Jaringan nekrotik hitam (gangren)",
         "Demam + luka berbau busuk",
@@ -5151,8 +5656,17 @@
         "Tes Monofilamen",
         "Palpasi Arteri Dorsalis Pedis"
       ],
-      "lab": ["GDS", "HbA1c", "DL", "Albumin", "Kultur Pus"],
-      "penunjang": ["Foto Pedis AP/Lateral", "USG Doppler Vaskuler"]
+      "lab": [
+        "GDS",
+        "HbA1c",
+        "DL",
+        "Albumin",
+        "Kultur Pus"
+      ],
+      "penunjang": [
+        "Foto Pedis AP/Lateral",
+        "USG Doppler Vaskuler"
+      ]
     }
   },
   "mata gatal berair": {
@@ -5198,8 +5712,14 @@
       "Mata merah"
     ],
     "predictive_next": {
-      "if_unilateral": ["Benda asing", "Infeksi lokal"],
-      "if_bilateral": ["Konjungtivitis alergi", "Rhinitis alergi"],
+      "if_unilateral": [
+        "Benda asing",
+        "Infeksi lokal"
+      ],
+      "if_bilateral": [
+        "Konjungtivitis alergi",
+        "Rhinitis alergi"
+      ],
       "red_flags": [
         "Penurunan tajam penglihatan",
         "Nyeri bola mata hebat",
@@ -5218,7 +5738,9 @@
         "Visus",
         "Funduskopi"
       ],
-      "lab": ["IgE Total"],
+      "lab": [
+        "IgE Total"
+      ],
       "penunjang": []
     }
   },
@@ -5267,7 +5789,11 @@
       "Pusing"
     ],
     "predictive_next": {
-      "if_unilateral": ["Otitis eksterna", "Otitis media akut", "Serumen prop"],
+      "if_unilateral": [
+        "Otitis eksterna",
+        "Otitis media akut",
+        "Serumen prop"
+      ],
       "if_bilateral": [
         "Infeksi saluran napas atas",
         "Disfungsi tuba eustachius"
@@ -5291,8 +5817,12 @@
         "Tes Weber",
         "Inspeksi Retroaurikuler"
       ],
-      "lab": ["DL"],
-      "penunjang": ["Audiometri"]
+      "lab": [
+        "DL"
+      ],
+      "penunjang": [
+        "Audiometri"
+      ]
     }
   },
   "sering lapar": {
@@ -5303,7 +5833,11 @@
         "Hiperfagia",
         "Peningkatan nafsu makan patologis"
       ],
-      "klinis": ["Polyphagia", "Hyperphagia", "Increased appetite"],
+      "klinis": [
+        "Polyphagia",
+        "Hyperphagia",
+        "Increased appetite"
+      ],
       "narasi": [
         "Cepat lapar meski sudah makan",
         "Makan banyak tapi tetap lapar",
@@ -5342,8 +5876,17 @@
       "Nafsu makan meningkat, makan {Frekuensi} per hari, tetap merasa lapar, sejak {Waktu}."
     ],
     "pemeriksaan": {
-      "fisik": ["Pengukuran BB/TB/IMT", "Inspeksi Tiroid", "Palpasi Tiroid"],
-      "lab": ["GDS", "GDP/GD2PP", "HbA1c", "TSH/FT4"],
+      "fisik": [
+        "Pengukuran BB/TB/IMT",
+        "Inspeksi Tiroid",
+        "Palpasi Tiroid"
+      ],
+      "lab": [
+        "GDS",
+        "GDP/GD2PP",
+        "HbA1c",
+        "TSH/FT4"
+      ],
       "penunjang": []
     }
   },
@@ -5356,7 +5899,11 @@
         "Keringat dingin profus",
         "Hiperhidrosis reaktif"
       ],
-      "klinis": ["Diaphoresis", "Cold clammy skin", "Autonomic response"],
+      "klinis": [
+        "Diaphoresis",
+        "Cold clammy skin",
+        "Autonomic response"
+      ],
       "narasi": [
         "Keringat dingin tiba-tiba",
         "Badan basah keringat padahal dingin",
@@ -5365,7 +5912,12 @@
         "Berkeringat dingin disertai lemas"
       ]
     },
-    "lokasi": ["Dahi", "Telapak tangan", "Seluruh tubuh", "Aksila"],
+    "lokasi": [
+      "Dahi",
+      "Telapak tangan",
+      "Seluruh tubuh",
+      "Aksila"
+    ],
     "durasi": [
       "Mendadak tadi",
       "Hilang timbul hari ini",
@@ -5403,8 +5955,14 @@
         "Akral",
         "Auskultasi Jantung"
       ],
-      "lab": ["GDS", "DL", "Elektrolit"],
-      "penunjang": ["EKG"]
+      "lab": [
+        "GDS",
+        "DL",
+        "Elektrolit"
+      ],
+      "penunjang": [
+        "EKG"
+      ]
     }
   },
   "gusi bengkak": {
@@ -5450,8 +6008,14 @@
       "Gusi berdarah"
     ],
     "predictive_next": {
-      "if_unilateral": ["Abses lokal", "Perikoronitis"],
-      "if_bilateral": ["Gingivitis generalisata", "Defisiensi vitamin C"],
+      "if_unilateral": [
+        "Abses lokal",
+        "Perikoronitis"
+      ],
+      "if_bilateral": [
+        "Gingivitis generalisata",
+        "Defisiensi vitamin C"
+      ],
       "red_flags": [
         "Gusi berdarah spontan terus-menerus",
         "Demam tinggi + trismus",
@@ -5464,16 +6028,33 @@
       "Gusi bengkak disertai {Gejala_Penyerta} sejak {Waktu}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Kavitas Oral", "Palpasi Gusi", "Perkusi Gigi"],
-      "lab": ["DL", "Vitamin C"],
-      "penunjang": ["Foto Panoramik"]
+      "fisik": [
+        "Inspeksi Kavitas Oral",
+        "Palpasi Gusi",
+        "Perkusi Gigi"
+      ],
+      "lab": [
+        "DL",
+        "Vitamin C"
+      ],
+      "penunjang": [
+        "Foto Panoramik"
+      ]
     }
   },
   "bau mulut": {
     "clinical_entity": "bau mulut",
     "sifat": {
-      "formal": ["Halitosis", "Fetor oris", "Oral malodor"],
-      "klinis": ["Halitosis", "Fetor hepaticus", "Oral fetor"],
+      "formal": [
+        "Halitosis",
+        "Fetor oris",
+        "Oral malodor"
+      ],
+      "klinis": [
+        "Halitosis",
+        "Fetor hepaticus",
+        "Oral fetor"
+      ],
       "narasi": [
         "Napas berbau tidak sedap",
         "Bau mulut menyengat saat bicara",
@@ -5481,7 +6062,10 @@
         "Bau mulut meski sudah sikat gigi"
       ]
     },
-    "lokasi": ["Rongga mulut", "Orofaring"],
+    "lokasi": [
+      "Rongga mulut",
+      "Orofaring"
+    ],
     "durasi": [
       "Sudah berminggu-minggu",
       "Semakin parah 1 bulan",
@@ -5510,15 +6094,28 @@
       "Halitosis kronik onset {Waktu}, disertai {Gejala_Penyerta}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Kavitas Oral", "Inspeksi Lidah", "Palpasi Gusi"],
-      "lab": ["GDS", "SGOT/SGPT"],
-      "penunjang": ["Foto Panoramik"]
+      "fisik": [
+        "Inspeksi Kavitas Oral",
+        "Inspeksi Lidah",
+        "Palpasi Gusi"
+      ],
+      "lab": [
+        "GDS",
+        "SGOT/SGPT"
+      ],
+      "penunjang": [
+        "Foto Panoramik"
+      ]
     }
   },
   "sariawan": {
     "clinical_entity": "sariawan",
     "sifat": {
-      "formal": ["Stomatitis aftosa", "Ulkus oral rekuren", "Mukositis oral"],
+      "formal": [
+        "Stomatitis aftosa",
+        "Ulkus oral rekuren",
+        "Mukositis oral"
+      ],
       "klinis": [
         "Aphthous ulcer",
         "Oral mucosal ulceration",
@@ -5553,8 +6150,14 @@
       "Penurunan nafsu makan"
     ],
     "predictive_next": {
-      "if_unilateral": ["Trauma lokal", "Lesi HSV"],
-      "if_bilateral": ["Stomatitis aftosa", "Defisiensi vitamin"],
+      "if_unilateral": [
+        "Trauma lokal",
+        "Lesi HSV"
+      ],
+      "if_bilateral": [
+        "Stomatitis aftosa",
+        "Defisiensi vitamin"
+      ],
       "red_flags": [
         "Ulkus > 3 minggu tidak sembuh (keganasan)",
         "Ulkus multipel + demam + diare (Behcet/HIV)",
@@ -5566,8 +6169,16 @@
       "Stomatitis aftosa rekuren onset {Waktu}, jumlah {N} lesi."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Kavitas Oral", "Palpasi KGB Submandibula"],
-      "lab": ["DL", "Ferritin", "Vitamin B12", "Asam Folat"],
+      "fisik": [
+        "Inspeksi Kavitas Oral",
+        "Palpasi KGB Submandibula"
+      ],
+      "lab": [
+        "DL",
+        "Ferritin",
+        "Vitamin B12",
+        "Asam Folat"
+      ],
       "penunjang": []
     }
   },
@@ -5592,7 +6203,11 @@
         "Kulit kepala merah dan bersisik"
       ]
     },
-    "lokasi": ["Skalp/kulit kepala", "Alis", "Lipatan nasolabial"],
+    "lokasi": [
+      "Skalp/kulit kepala",
+      "Alis",
+      "Lipatan nasolabial"
+    ],
     "durasi": [
       "Sudah berbulan-bulan",
       "Hilang timbul",
@@ -5619,7 +6234,11 @@
       "Dermatitis seboroik skalp onset {Waktu}, disertai pruritus."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Skalp", "Lampu Wood", "Skuama Scaling Assessment"],
+      "fisik": [
+        "Inspeksi Skalp",
+        "Lampu Wood",
+        "Skuama Scaling Assessment"
+      ],
       "lab": [],
       "penunjang": []
     }
@@ -5665,8 +6284,14 @@
       "Pusing/vertigo"
     ],
     "predictive_next": {
-      "if_unilateral": ["Otitis media perforasi", "Otitis eksterna"],
-      "if_bilateral": ["ISPA komplikasi", "OMSK bilateral"],
+      "if_unilateral": [
+        "Otitis media perforasi",
+        "Otitis eksterna"
+      ],
+      "if_bilateral": [
+        "ISPA komplikasi",
+        "OMSK bilateral"
+      ],
       "red_flags": [
         "Cairan bercampur darah",
         "Vertigo + gangguan pendengaran berat",
@@ -5684,15 +6309,29 @@
         "Tes Weber",
         "Inspeksi Retroaurikuler"
       ],
-      "lab": ["DL", "Kultur Sekret Telinga"],
-      "penunjang": ["Audiometri", "Foto Mastoid (Schuller)"]
+      "lab": [
+        "DL",
+        "Kultur Sekret Telinga"
+      ],
+      "penunjang": [
+        "Audiometri",
+        "Foto Mastoid (Schuller)"
+      ]
     }
   },
   "suara serak": {
     "clinical_entity": "suara serak",
     "sifat": {
-      "formal": ["Disfonia", "Hoarseness", "Laringitis akut/kronik"],
-      "klinis": ["Dysphonia", "Hoarseness", "Vocal cord dysfunction"],
+      "formal": [
+        "Disfonia",
+        "Hoarseness",
+        "Laringitis akut/kronik"
+      ],
+      "klinis": [
+        "Dysphonia",
+        "Hoarseness",
+        "Vocal cord dysfunction"
+      ],
       "narasi": [
         "Suara parau tidak keluar",
         "Suara hilang timbul",
@@ -5701,7 +6340,11 @@
         "Tenggorokan kering suara tidak keluar"
       ]
     },
-    "lokasi": ["Laring", "Pita suara", "Orofaring"],
+    "lokasi": [
+      "Laring",
+      "Pita suara",
+      "Orofaring"
+    ],
     "durasi": [
       "Sejak 2 hari lalu",
       "Sudah seminggu",
@@ -5734,8 +6377,12 @@
         "Palpasi KGB Leher",
         "Laringoskopi Indirek"
       ],
-      "lab": ["DL"],
-      "penunjang": ["Laringoskopi"]
+      "lab": [
+        "DL"
+      ],
+      "penunjang": [
+        "Laringoskopi"
+      ]
     }
   },
   "sendi kaku pagi": {
@@ -5781,8 +6428,14 @@
       "Kelelahan"
     ],
     "predictive_next": {
-      "if_unilateral": ["Osteoartritis", "Gout"],
-      "if_bilateral": ["Rheumatoid Arthritis", "SLE"],
+      "if_unilateral": [
+        "Osteoartritis",
+        "Gout"
+      ],
+      "if_bilateral": [
+        "Rheumatoid Arthritis",
+        "SLE"
+      ],
       "red_flags": [
         "Morning stiffness > 1 jam (RA aktif)",
         "Deformitas sendi progresif",
@@ -5807,7 +6460,10 @@
         "Asam Urat",
         "ANA"
       ],
-      "penunjang": ["Foto Manus AP", "USG Sendi"]
+      "penunjang": [
+        "Foto Manus AP",
+        "USG Sendi"
+      ]
     }
   },
   "sendi bengkak merah": {
@@ -5851,8 +6507,14 @@
       "Riwayat asam urat tinggi"
     ],
     "predictive_next": {
-      "if_unilateral": ["Gout akut", "Artritis septik"],
-      "if_bilateral": ["RA flare", "Artritis reaktif"],
+      "if_unilateral": [
+        "Gout akut",
+        "Artritis septik"
+      ],
+      "if_bilateral": [
+        "RA flare",
+        "Artritis reaktif"
+      ],
       "red_flags": [
         "Demam tinggi + sendi bengkak (artritis septik)",
         "Sendi merah panas + menggigil",
@@ -5870,8 +6532,15 @@
         "ROM Sendi",
         "Tanda Fluktuasi"
       ],
-      "lab": ["Asam Urat", "DL", "LED/CRP", "Analisis Cairan Sendi"],
-      "penunjang": ["Foto Sendi AP/Lateral"]
+      "lab": [
+        "Asam Urat",
+        "DL",
+        "LED/CRP",
+        "Analisis Cairan Sendi"
+      ],
+      "penunjang": [
+        "Foto Sendi AP/Lateral"
+      ]
     }
   },
   "nyeri tumit": {
@@ -5914,8 +6583,14 @@
       "Nyeri pinggang"
     ],
     "predictive_next": {
-      "if_unilateral": ["Plantar fasciitis", "Calcaneal spur"],
-      "if_bilateral": ["Bilateral plantar fasciitis", "Spondyloarthropathy"],
+      "if_unilateral": [
+        "Plantar fasciitis",
+        "Calcaneal spur"
+      ],
+      "if_bilateral": [
+        "Bilateral plantar fasciitis",
+        "Spondyloarthropathy"
+      ],
       "red_flags": [
         "Nyeri tumit + bengkak merah (fraktur stress)",
         "Nyeri malam hari (tumor)",
@@ -5927,9 +6602,18 @@
       "Plantar fasciitis onset {Waktu}, nyeri terutama langkah pertama pagi hari."
     ],
     "pemeriksaan": {
-      "fisik": ["Palpasi Tumit", "Windlass Test", "Inspeksi Arkus Pedis"],
-      "lab": ["Asam Urat", "LED"],
-      "penunjang": ["Foto Kalkaneus Lateral"]
+      "fisik": [
+        "Palpasi Tumit",
+        "Windlass Test",
+        "Inspeksi Arkus Pedis"
+      ],
+      "lab": [
+        "Asam Urat",
+        "LED"
+      ],
+      "penunjang": [
+        "Foto Kalkaneus Lateral"
+      ]
     }
   },
   "kulit bersisik": {
@@ -5941,7 +6625,11 @@
         "Xerosis kutis",
         "Iktiosis"
       ],
-      "klinis": ["Scaly dermatosis", "Psoriatic plaques", "Xerotic eczema"],
+      "klinis": [
+        "Scaly dermatosis",
+        "Psoriatic plaques",
+        "Xerotic eczema"
+      ],
       "narasi": [
         "Kulit kering dan mengelupas",
         "Kulit bersisik putih tebal",
@@ -5971,8 +6659,14 @@
       "Rambut rontok (jika di skalp)"
     ],
     "predictive_next": {
-      "if_unilateral": ["Dermatitis kontak", "Tinea corporis"],
-      "if_bilateral": ["Psoriasis", "Xerosis generalisata"],
+      "if_unilateral": [
+        "Dermatitis kontak",
+        "Tinea corporis"
+      ],
+      "if_bilateral": [
+        "Psoriasis",
+        "Xerosis generalisata"
+      ],
       "red_flags": [
         "Lesi meluas cepat + demam (eritroderma)",
         "Sisik disertai pus (infeksi sekunder)",
@@ -5990,15 +6684,26 @@
         "Koebner Phenomenon",
         "Skuama Assessment"
       ],
-      "lab": ["DL", "LED"],
+      "lab": [
+        "DL",
+        "LED"
+      ],
       "penunjang": []
     }
   },
   "bisul": {
     "clinical_entity": "bisul",
     "sifat": {
-      "formal": ["Furunkel", "Abses kutaneus", "Karbunkel"],
-      "klinis": ["Furuncle", "Cutaneous abscess", "Carbuncle"],
+      "formal": [
+        "Furunkel",
+        "Abses kutaneus",
+        "Karbunkel"
+      ],
+      "klinis": [
+        "Furuncle",
+        "Cutaneous abscess",
+        "Carbuncle"
+      ],
       "narasi": [
         "Benjolan merah bernanah dan nyeri",
         "Bisul membesar dan berdenyut",
@@ -6007,7 +6712,14 @@
         "Bisul tumbuh bergerombol"
       ]
     },
-    "lokasi": ["Wajah", "Leher", "Aksila", "Bokong", "Paha", "Punggung"],
+    "lokasi": [
+      "Wajah",
+      "Leher",
+      "Aksila",
+      "Bokong",
+      "Paha",
+      "Punggung"
+    ],
     "durasi": [
       "Sejak 3 hari lalu",
       "Semakin membesar 5 hari",
@@ -6022,7 +6734,9 @@
       "Bisul berulang"
     ],
     "predictive_next": {
-      "if_unilateral": ["Furunkel soliter"],
+      "if_unilateral": [
+        "Furunkel soliter"
+      ],
       "if_bilateral": [],
       "red_flags": [
         "Bisul di wajah (risiko trombosis sinus kavernosus)",
@@ -6041,7 +6755,11 @@
         "Pengukuran Diameter",
         "Palpasi KGB Regional"
       ],
-      "lab": ["DL", "GDS", "Kultur Pus"],
+      "lab": [
+        "DL",
+        "GDS",
+        "Kultur Pus"
+      ],
       "penunjang": []
     }
   },
@@ -6053,7 +6771,11 @@
         "Dermatofitosis",
         "Infeksi jamur kulit superfisial"
       ],
-      "klinis": ["Ringworm", "Dermatophytosis", "Tinea infection"],
+      "klinis": [
+        "Ringworm",
+        "Dermatophytosis",
+        "Tinea infection"
+      ],
       "narasi": [
         "Ruam melingkar gatal di kulit",
         "Bercak merah bentuk cincin",
@@ -6062,7 +6784,13 @@
         "Bentol melingkar semakin besar"
       ]
     },
-    "lokasi": ["Badan", "Lengan", "Tungkai", "Lipatan kulit", "Wajah"],
+    "lokasi": [
+      "Badan",
+      "Lengan",
+      "Tungkai",
+      "Lipatan kulit",
+      "Wajah"
+    ],
     "durasi": [
       "Sejak 1 minggu",
       "Semakin melebar 2 minggu",
@@ -6076,8 +6804,13 @@
       "Penularan kontak"
     ],
     "predictive_next": {
-      "if_unilateral": ["Tinea corporis lokal"],
-      "if_bilateral": ["Tinea generalisata", "Imunodefisiensi"],
+      "if_unilateral": [
+        "Tinea corporis lokal"
+      ],
+      "if_bilateral": [
+        "Tinea generalisata",
+        "Imunodefisiensi"
+      ],
       "red_flags": [
         "Lesi meluas cepat meski diobati (imunosupresi)",
         "Lesi bernanah (infeksi sekunder)",
@@ -6089,8 +6822,14 @@
       "Tinea corporis regio {Lokasi}, onset {Waktu}, pruritus positif."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Lesi Kulit", "Lampu Wood", "Kerokan KOH"],
-      "lab": ["KOH Scraping"],
+      "fisik": [
+        "Inspeksi Lesi Kulit",
+        "Lampu Wood",
+        "Kerokan KOH"
+      ],
+      "lab": [
+        "KOH Scraping"
+      ],
       "penunjang": []
     }
   },
@@ -6103,7 +6842,11 @@
         "Acne papulopustular",
         "Acne nodulocystic"
       ],
-      "klinis": ["Acne vulgaris", "Comedonal acne", "Inflammatory acne"],
+      "klinis": [
+        "Acne vulgaris",
+        "Comedonal acne",
+        "Inflammatory acne"
+      ],
       "narasi": [
         "Jerawat meradang bernanah",
         "Wajah beruntus merah-merah",
@@ -6112,7 +6855,14 @@
         "Muncul jerawat saat haid"
       ]
     },
-    "lokasi": ["Wajah", "Dahi", "Pipi", "Dagu", "Punggung", "Dada"],
+    "lokasi": [
+      "Wajah",
+      "Dahi",
+      "Pipi",
+      "Dagu",
+      "Punggung",
+      "Dada"
+    ],
     "durasi": [
       "Sudah berbulan-bulan",
       "Kambuh tiap menjelang haid",
@@ -6139,16 +6889,30 @@
       "Akne vulgaris derajat {Derajat}, onset {Waktu}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Lesi Wajah", "Grading Akne (Lehmann)"],
-      "lab": ["Hormonal (Testosteron/DHEAS)", "GDS"],
+      "fisik": [
+        "Inspeksi Lesi Wajah",
+        "Grading Akne (Lehmann)"
+      ],
+      "lab": [
+        "Hormonal (Testosteron/DHEAS)",
+        "GDS"
+      ],
       "penunjang": []
     }
   },
   "kutil": {
     "clinical_entity": "kutil",
     "sifat": {
-      "formal": ["Veruka vulgaris", "Veruka plantaris", "Papiloma kutaneus"],
-      "klinis": ["Common wart", "Verruca vulgaris", "HPV-induced papilloma"],
+      "formal": [
+        "Veruka vulgaris",
+        "Veruka plantaris",
+        "Papiloma kutaneus"
+      ],
+      "klinis": [
+        "Common wart",
+        "Verruca vulgaris",
+        "HPV-induced papilloma"
+      ],
       "narasi": [
         "Benjolan kasar di kulit",
         "Kutil tumbuh makin banyak",
@@ -6189,7 +6953,10 @@
       "Veruka vulgaris regio {Lokasi}, jumlah {N} lesi, onset {Waktu}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Lesi", "Dermatoskopi"],
+      "fisik": [
+        "Inspeksi Lesi",
+        "Dermatoskopi"
+      ],
       "lab": [],
       "penunjang": []
     }
@@ -6238,7 +7005,10 @@
       "Haid tidak teratur"
     ],
     "predictive_next": {
-      "if_unilateral": ["Alopesia areata", "Tinea capitis"],
+      "if_unilateral": [
+        "Alopesia areata",
+        "Tinea capitis"
+      ],
       "if_bilateral": [],
       "red_flags": [
         "Rambut rontok + lesi kulit luas (SLE)",
@@ -6251,8 +7021,18 @@
       "Alopesia onset {Waktu}, pola {Pola}, disertai {Gejala_Penyerta}."
     ],
     "pemeriksaan": {
-      "fisik": ["Pull Test", "Inspeksi Skalp", "Dermoskopi Skalp"],
-      "lab": ["TSH/FT4", "Ferritin", "DL", "Vitamin D", "ANA"],
+      "fisik": [
+        "Pull Test",
+        "Inspeksi Skalp",
+        "Dermoskopi Skalp"
+      ],
+      "lab": [
+        "TSH/FT4",
+        "Ferritin",
+        "DL",
+        "Vitamin D",
+        "ANA"
+      ],
       "penunjang": []
     }
   },
@@ -6265,7 +7045,12 @@
         "Kista mammae",
         "Tumor mammae"
       ],
-      "klinis": ["Breast lump", "Fibroadenoma", "Breast cyst", "Breast mass"],
+      "klinis": [
+        "Breast lump",
+        "Fibroadenoma",
+        "Breast cyst",
+        "Breast mass"
+      ],
       "narasi": [
         "Ada benjolan di payudara",
         "Teraba keras di dada",
@@ -6295,8 +7080,15 @@
       "Bengkak aksila"
     ],
     "predictive_next": {
-      "if_unilateral": ["FAM", "Kista", "Karsinoma mammae"],
-      "if_bilateral": ["Fibrokistik bilateral", "Perubahan hormonal"],
+      "if_unilateral": [
+        "FAM",
+        "Kista",
+        "Karsinoma mammae"
+      ],
+      "if_bilateral": [
+        "Fibrokistik bilateral",
+        "Perubahan hormonal"
+      ],
       "red_flags": [
         "Benjolan keras, ireguler, tidak nyeri (keganasan)",
         "Retraksi puting/peau d'orange",
@@ -6315,14 +7107,25 @@
         "Palpasi KGB Aksila",
         "Palpasi KGB Supraklavikula"
       ],
-      "lab": ["CA 15-3"],
-      "penunjang": ["USG Mammae", "Mammografi", "FNAB"]
+      "lab": [
+        "CA 15-3"
+      ],
+      "penunjang": [
+        "USG Mammae",
+        "Mammografi",
+        "FNAB"
+      ]
     }
   },
   "payudara bengkak nyeri": {
     "clinical_entity": "payudara bengkak nyeri",
     "sifat": {
-      "formal": ["Mastitis", "Breast engorgement", "Abses mammae", "Mastalgia"],
+      "formal": [
+        "Mastitis",
+        "Breast engorgement",
+        "Abses mammae",
+        "Mastalgia"
+      ],
       "klinis": [
         "Lactational mastitis",
         "Puerperal mastitis",
@@ -6336,7 +7139,12 @@
         "Nyeri hebat sampai tidak bisa tidur miring"
       ]
     },
-    "lokasi": ["Payudara kanan", "Payudara kiri", "Areola", "Kuadran tertentu"],
+    "lokasi": [
+      "Payudara kanan",
+      "Payudara kiri",
+      "Areola",
+      "Kuadran tertentu"
+    ],
     "durasi": [
       "Sejak 2 hari lalu",
       "Setelah menyusui kemarin",
@@ -6351,8 +7159,14 @@
       "ASI tidak keluar lancar"
     ],
     "predictive_next": {
-      "if_unilateral": ["Mastitis", "Abses mammae"],
-      "if_bilateral": ["Breast engorgement", "Galaktostasis"],
+      "if_unilateral": [
+        "Mastitis",
+        "Abses mammae"
+      ],
+      "if_bilateral": [
+        "Breast engorgement",
+        "Galaktostasis"
+      ],
       "red_flags": [
         "Fluktuasi teraba (abses perlu drainase)",
         "Demam tinggi > 3 hari (sepsis)",
@@ -6364,9 +7178,19 @@
       "Mastitis laktasi onset {Waktu}, payudara {Lokasi} eritematosa dan nyeri."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Mammae", "Palpasi Mammae", "Suhu", "Tanda Fluktuasi"],
-      "lab": ["DL", "Kultur ASI"],
-      "penunjang": ["USG Mammae"]
+      "fisik": [
+        "Inspeksi Mammae",
+        "Palpasi Mammae",
+        "Suhu",
+        "Tanda Fluktuasi"
+      ],
+      "lab": [
+        "DL",
+        "Kultur ASI"
+      ],
+      "penunjang": [
+        "USG Mammae"
+      ]
     }
   },
   "nyeri punggung atas": {
@@ -6377,7 +7201,11 @@
         "Nyeri muskuloskeletal dorsal",
         "Tension myalgia upper back"
       ],
-      "klinis": ["Upper back pain", "Thoracic spine pain", "Postural myalgia"],
+      "klinis": [
+        "Upper back pain",
+        "Thoracic spine pain",
+        "Postural myalgia"
+      ],
       "narasi": [
         "Punggung atas pegal dan kaku",
         "Nyeri di antara belikat",
@@ -6406,8 +7234,14 @@
       "Sulit tidur"
     ],
     "predictive_next": {
-      "if_unilateral": ["Nyeri otot lokal", "Saraf terjepit torakal"],
-      "if_bilateral": ["Tension myalgia", "Postur buruk"],
+      "if_unilateral": [
+        "Nyeri otot lokal",
+        "Saraf terjepit torakal"
+      ],
+      "if_bilateral": [
+        "Tension myalgia",
+        "Postur buruk"
+      ],
       "red_flags": [
         "Nyeri dada menjalar ke punggung (diseksi aorta)",
         "Nyeri malam hari + BB turun (tumor)",
@@ -6426,7 +7260,9 @@
         "Tes Provokasi Bahu"
       ],
       "lab": [],
-      "penunjang": ["Foto Thoracolumbal AP/Lateral"]
+      "penunjang": [
+        "Foto Thoracolumbal AP/Lateral"
+      ]
     }
   },
   "kram otot kaki": {
@@ -6437,7 +7273,11 @@
         "Spasme otot gastroknemius",
         "Kram nokturnal"
       ],
-      "klinis": ["Muscle cramp", "Charley horse", "Nocturnal leg cramp"],
+      "klinis": [
+        "Muscle cramp",
+        "Charley horse",
+        "Nocturnal leg cramp"
+      ],
       "narasi": [
         "Betis kram mendadak saat tidur",
         "Otot kaki mengejang tiba-tiba",
@@ -6466,8 +7306,15 @@
       "Dehidrasi"
     ],
     "predictive_next": {
-      "if_unilateral": ["Kelelahan otot lokal", "Gangguan vaskuler"],
-      "if_bilateral": ["Gangguan elektrolit", "Dehidrasi", "Neuropati"],
+      "if_unilateral": [
+        "Kelelahan otot lokal",
+        "Gangguan vaskuler"
+      ],
+      "if_bilateral": [
+        "Gangguan elektrolit",
+        "Dehidrasi",
+        "Neuropati"
+      ],
       "red_flags": [
         "Bengkak + nyeri betis unilateral (DVT)",
         "Kram + urine gelap (rhabdomyolysis)",
@@ -6485,7 +7332,12 @@
         "Kekuatan Motorik",
         "Refleks Fisiologis"
       ],
-      "lab": ["Elektrolit (Na/K/Ca/Mg)", "DL", "GDS", "CPK"],
+      "lab": [
+        "Elektrolit (Na/K/Ca/Mg)",
+        "DL",
+        "GDS",
+        "CPK"
+      ],
       "penunjang": []
     }
   },
@@ -6497,7 +7349,11 @@
         "Spasme diafragma",
         "Hikkup persisten/intractable"
       ],
-      "klinis": ["Hiccups", "Persistent singultus", "Diaphragmatic spasm"],
+      "klinis": [
+        "Hiccups",
+        "Persistent singultus",
+        "Diaphragmatic spasm"
+      ],
       "narasi": [
         "Cegukan terus-menerus tidak berhenti",
         "Cegukan sudah seharian",
@@ -6506,7 +7362,10 @@
         "Cegukan berhari-hari tidak hilang"
       ]
     },
-    "lokasi": ["Diafragma", "Epigastrium"],
+    "lokasi": [
+      "Diafragma",
+      "Epigastrium"
+    ],
     "durasi": [
       "Sejak tadi pagi",
       "Sudah 2 hari",
@@ -6539,15 +7398,29 @@
         "Palpasi Epigastrium",
         "Pemeriksaan Neurologis Dasar"
       ],
-      "lab": ["Elektrolit", "GDS", "BUN/SK"],
-      "penunjang": ["Foto Thorax AP"]
+      "lab": [
+        "Elektrolit",
+        "GDS",
+        "BUN/SK"
+      ],
+      "penunjang": [
+        "Foto Thorax AP"
+      ]
     }
   },
   "sering bersendawa": {
     "clinical_entity": "sering bersendawa",
     "sifat": {
-      "formal": ["Aerofagia", "Eructation berlebih", "Gastric belching"],
-      "klinis": ["Excessive belching", "Aerophagia", "Supragastric belching"],
+      "formal": [
+        "Aerofagia",
+        "Eructation berlebih",
+        "Gastric belching"
+      ],
+      "klinis": [
+        "Excessive belching",
+        "Aerophagia",
+        "Supragastric belching"
+      ],
       "narasi": [
         "Bersendawa terus setelah makan",
         "Perut terasa penuh gas",
@@ -6556,7 +7429,10 @@
         "Sering sendawa disertai mual"
       ]
     },
-    "lokasi": ["Epigastrium", "Esofagus"],
+    "lokasi": [
+      "Epigastrium",
+      "Esofagus"
+    ],
     "durasi": [
       "Sejak 1 minggu",
       "Hilang timbul sebulan",
@@ -6584,16 +7460,31 @@
       "Eructation berlebih onset {Waktu}, memberat post-prandial."
     ],
     "pemeriksaan": {
-      "fisik": ["Palpasi Epigastrium", "Auskultasi Abdomen"],
-      "lab": ["H. pylori Antigen"],
-      "penunjang": ["USG Abdomen"]
+      "fisik": [
+        "Palpasi Epigastrium",
+        "Auskultasi Abdomen"
+      ],
+      "lab": [
+        "H. pylori Antigen"
+      ],
+      "penunjang": [
+        "USG Abdomen"
+      ]
     }
   },
   "lidah pahit": {
     "clinical_entity": "lidah pahit",
     "sifat": {
-      "formal": ["Disgeusia", "Gangguan pengecap", "Perubahan persepsi rasa"],
-      "klinis": ["Dysgeusia", "Taste disturbance", "Altered taste perception"],
+      "formal": [
+        "Disgeusia",
+        "Gangguan pengecap",
+        "Perubahan persepsi rasa"
+      ],
+      "klinis": [
+        "Dysgeusia",
+        "Taste disturbance",
+        "Altered taste perception"
+      ],
       "narasi": [
         "Mulut terasa pahit terus",
         "Makanan terasa hambar",
@@ -6602,7 +7493,11 @@
         "Mulut pahit saat bangun tidur"
       ]
     },
-    "lokasi": ["Lidah", "Rongga mulut", "Palatum"],
+    "lokasi": [
+      "Lidah",
+      "Rongga mulut",
+      "Palatum"
+    ],
     "durasi": [
       "Sejak 3 hari lalu",
       "Hilang timbul 1 minggu",
@@ -6631,16 +7526,32 @@
       "Disgeusia onset {Waktu}, disertai {Gejala_Penyerta}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Lidah", "Inspeksi Kavitas Oral", "Palpasi Abdomen"],
-      "lab": ["SGOT/SGPT", "Bilirubin", "GDS"],
+      "fisik": [
+        "Inspeksi Lidah",
+        "Inspeksi Kavitas Oral",
+        "Palpasi Abdomen"
+      ],
+      "lab": [
+        "SGOT/SGPT",
+        "Bilirubin",
+        "GDS"
+      ],
       "penunjang": []
     }
   },
   "mudah memar": {
     "clinical_entity": "mudah memar",
     "sifat": {
-      "formal": ["Purpura", "Ekimosis spontan", "Gangguan hemostasis"],
-      "klinis": ["Easy bruising", "Purpura", "Coagulation disorder"],
+      "formal": [
+        "Purpura",
+        "Ekimosis spontan",
+        "Gangguan hemostasis"
+      ],
+      "klinis": [
+        "Easy bruising",
+        "Purpura",
+        "Coagulation disorder"
+      ],
       "narasi": [
         "Lebam muncul tanpa terbentur",
         "Kulit mudah biru-biru",
@@ -6649,7 +7560,12 @@
         "Bintik merah kecil di kulit (petekiae)"
       ]
     },
-    "lokasi": ["Ekstremitas atas", "Ekstremitas bawah", "Badan", "Difus"],
+    "lokasi": [
+      "Ekstremitas atas",
+      "Ekstremitas bawah",
+      "Badan",
+      "Difus"
+    ],
     "durasi": [
       "Sejak 1 minggu",
       "Hilang timbul sebulan",
@@ -6683,15 +7599,28 @@
         "Tes Rumple Leede",
         "Palpasi Hepar/Lien"
       ],
-      "lab": ["DL", "Trombosit", "PT/APTT", "Bleeding Time"],
+      "lab": [
+        "DL",
+        "Trombosit",
+        "PT/APTT",
+        "Bleeding Time"
+      ],
       "penunjang": []
     }
   },
   "pucat": {
     "clinical_entity": "pucat",
     "sifat": {
-      "formal": ["Pallor", "Anemia klinis", "Pucat mukosa dan konjungtiva"],
-      "klinis": ["Pallor", "Clinical anemia", "Conjunctival pallor"],
+      "formal": [
+        "Pallor",
+        "Anemia klinis",
+        "Pucat mukosa dan konjungtiva"
+      ],
+      "klinis": [
+        "Pallor",
+        "Clinical anemia",
+        "Conjunctival pallor"
+      ],
       "narasi": [
         "Wajah pucat pasi",
         "Bibir tidak ada warnanya",
@@ -6741,7 +7670,13 @@
         "Inspeksi Telapak Tangan",
         "Palpasi Hepar/Lien"
       ],
-      "lab": ["DL", "Retikulosit", "Ferritin", "SI/TIBC", "Apusan Darah Tepi"],
+      "lab": [
+        "DL",
+        "Retikulosit",
+        "Ferritin",
+        "SI/TIBC",
+        "Apusan Darah Tepi"
+      ],
       "penunjang": []
     }
   },
@@ -6753,7 +7688,11 @@
         "Abses kelenjar Meibom/Zeiss",
         "Kalazion terinfeksi"
       ],
-      "klinis": ["Hordeolum externum/internum", "Eyelid abscess", "Chalazion"],
+      "klinis": [
+        "Hordeolum externum/internum",
+        "Eyelid abscess",
+        "Chalazion"
+      ],
       "narasi": [
         "Kelopak mata bengkak seperti bisul",
         "Bintitan nyeri saat kedip",
@@ -6762,7 +7701,11 @@
         "Bintit bernanah nyeri"
       ]
     },
-    "lokasi": ["Kelopak mata atas", "Kelopak mata bawah", "Tepi palpebra"],
+    "lokasi": [
+      "Kelopak mata atas",
+      "Kelopak mata bawah",
+      "Tepi palpebra"
+    ],
     "durasi": [
       "Sejak 2 hari lalu",
       "Baru muncul kemarin",
@@ -6776,8 +7719,13 @@
       "Demam ringan"
     ],
     "predictive_next": {
-      "if_unilateral": ["Hordeolum", "Kalazion"],
-      "if_bilateral": ["Blefaritis"],
+      "if_unilateral": [
+        "Hordeolum",
+        "Kalazion"
+      ],
+      "if_bilateral": [
+        "Blefaritis"
+      ],
       "red_flags": [
         "Bengkak meluas ke seluruh kelopak (selulitis preseptal)",
         "Demam + proptosis (selulitis orbita)",
@@ -6789,7 +7737,11 @@
       "Hordeolum regio {Lokasi}, onset {Waktu}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Palpebra", "Eversi Kelopak Mata", "Visus"],
+      "fisik": [
+        "Inspeksi Palpebra",
+        "Eversi Kelopak Mata",
+        "Visus"
+      ],
       "lab": [],
       "penunjang": []
     }
@@ -6834,7 +7786,10 @@
       "Penglihatan agak buram"
     ],
     "predictive_next": {
-      "if_unilateral": ["Konjungtivitis bakterial", "Dakriosistitis"],
+      "if_unilateral": [
+        "Konjungtivitis bakterial",
+        "Dakriosistitis"
+      ],
       "if_bilateral": [
         "Konjungtivitis viral/bakterial",
         "Konjungtivitis neonatal (pada bayi)"
@@ -6856,15 +7811,26 @@
         "Tes Fluorescein",
         "Palpasi KGB Preaurikuler"
       ],
-      "lab": ["Kultur Sekret Mata"],
+      "lab": [
+        "Kultur Sekret Mata"
+      ],
       "penunjang": []
     }
   },
   "napas berbunyi": {
     "clinical_entity": "napas berbunyi",
     "sifat": {
-      "formal": ["Wheezing", "Mengi ekspirasi", "Stridor", "Ronki"],
-      "klinis": ["Expiratory wheeze", "Stridor", "Rhonchi"],
+      "formal": [
+        "Wheezing",
+        "Mengi ekspirasi",
+        "Stridor",
+        "Ronki"
+      ],
+      "klinis": [
+        "Expiratory wheeze",
+        "Stridor",
+        "Rhonchi"
+      ],
       "narasi": [
         "Napas bunyi ngik-ngik",
         "Dada berbunyi saat tarik napas",
@@ -6873,7 +7839,11 @@
         "Napas grok-grok ada dahak"
       ]
     },
-    "lokasi": ["Paru bilateral", "Paru unilateral", "Trakea"],
+    "lokasi": [
+      "Paru bilateral",
+      "Paru unilateral",
+      "Trakea"
+    ],
     "durasi": [
       "Sejak semalam",
       "Kambuh 2 hari ini",
@@ -6888,7 +7858,10 @@
       "Pilek"
     ],
     "predictive_next": {
-      "if_unilateral": ["Benda asing", "Pneumonia lobar"],
+      "if_unilateral": [
+        "Benda asing",
+        "Pneumonia lobar"
+      ],
       "if_bilateral": [
         "Asma bronkial",
         "PPOK eksaserbasi",
@@ -6912,15 +7885,28 @@
         "Saturasi O2",
         "Peak Flow Meter"
       ],
-      "lab": ["DL", "IgE Total"],
-      "penunjang": ["Foto Thorax AP", "Spirometri"]
+      "lab": [
+        "DL",
+        "IgE Total"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "Spirometri"
+      ]
     }
   },
   "keringat malam": {
     "clinical_entity": "keringat malam",
     "sifat": {
-      "formal": ["Night sweats", "Diaforesis nokturnal", "Hidrosis malam"],
-      "klinis": ["Night sweats", "Nocturnal diaphoresis"],
+      "formal": [
+        "Night sweats",
+        "Diaforesis nokturnal",
+        "Hidrosis malam"
+      ],
+      "klinis": [
+        "Night sweats",
+        "Nocturnal diaphoresis"
+      ],
       "narasi": [
         "Berkeringat banyak saat tidur",
         "Baju basah kuyup tiap malam",
@@ -6929,7 +7915,12 @@
         "Berkeringat malam padahal AC dingin"
       ]
     },
-    "lokasi": ["Seluruh tubuh", "Dada", "Punggung", "Leher"],
+    "lokasi": [
+      "Seluruh tubuh",
+      "Dada",
+      "Punggung",
+      "Leher"
+    ],
     "durasi": [
       "Sudah 2 minggu tiap malam",
       "Hilang timbul sebulan",
@@ -6963,8 +7954,16 @@
         "Auskultasi Pulmo",
         "Pengukuran BB"
       ],
-      "lab": ["DL", "LED/CRP", "BTA Sputum", "GeneXpert"],
-      "penunjang": ["Foto Thorax AP", "Tes Mantoux"]
+      "lab": [
+        "DL",
+        "LED/CRP",
+        "BTA Sputum",
+        "GeneXpert"
+      ],
+      "penunjang": [
+        "Foto Thorax AP",
+        "Tes Mantoux"
+      ]
     }
   },
   "mudah lupa": {
@@ -6975,7 +7974,11 @@
         "Mild cognitive impairment",
         "Amnesia ringan"
       ],
-      "klinis": ["Memory impairment", "Cognitive decline", "Forgetfulness"],
+      "klinis": [
+        "Memory impairment",
+        "Cognitive decline",
+        "Forgetfulness"
+      ],
       "narasi": [
         "Sering lupa taruh barang",
         "Mudah lupa nama orang",
@@ -7018,14 +8021,26 @@
         "Clock Drawing Test",
         "Pemeriksaan Neurologis Lengkap"
       ],
-      "lab": ["TSH/FT4", "Vitamin B12", "DL", "GDS", "SGOT/SGPT"],
-      "penunjang": ["CT-Scan Kepala"]
+      "lab": [
+        "TSH/FT4",
+        "Vitamin B12",
+        "DL",
+        "GDS",
+        "SGOT/SGPT"
+      ],
+      "penunjang": [
+        "CT-Scan Kepala"
+      ]
     }
   },
   "gelisah cemas": {
     "clinical_entity": "gelisah cemas",
     "sifat": {
-      "formal": ["Ansietas", "Gangguan cemas menyeluruh", "Serangan panik"],
+      "formal": [
+        "Ansietas",
+        "Gangguan cemas menyeluruh",
+        "Serangan panik"
+      ],
       "klinis": [
         "Generalized anxiety disorder",
         "Panic attack",
@@ -7076,14 +8091,24 @@
         "GAD-7 Score",
         "PHQ-9"
       ],
-      "lab": ["TSH/FT4", "GDS", "DL"],
-      "penunjang": ["EKG"]
+      "lab": [
+        "TSH/FT4",
+        "GDS",
+        "DL"
+      ],
+      "penunjang": [
+        "EKG"
+      ]
     }
   },
   "perasaan sedih": {
     "clinical_entity": "perasaan sedih",
     "sifat": {
-      "formal": ["Episode depresif", "Gangguan mood", "Depresi ringan-sedang"],
+      "formal": [
+        "Episode depresif",
+        "Gangguan mood",
+        "Depresi ringan-sedang"
+      ],
       "klinis": [
         "Depressive episode",
         "Major depressive disorder",
@@ -7134,14 +8159,23 @@
         "Status Mental (mood/afek)",
         "Penilaian Risiko Bunuh Diri"
       ],
-      "lab": ["TSH/FT4", "DL", "GDS", "Vitamin B12"],
+      "lab": [
+        "TSH/FT4",
+        "DL",
+        "GDS",
+        "Vitamin B12"
+      ],
       "penunjang": []
     }
   },
   "tangan gemetar": {
     "clinical_entity": "tangan gemetar",
     "sifat": {
-      "formal": ["Tremor esensial", "Tremor intensional", "Tremor istirahat"],
+      "formal": [
+        "Tremor esensial",
+        "Tremor intensional",
+        "Tremor istirahat"
+      ],
       "klinis": [
         "Essential tremor",
         "Resting tremor",
@@ -7156,7 +8190,12 @@
         "Gemetar semakin parah saat gugup"
       ]
     },
-    "lokasi": ["Tangan kanan", "Tangan kiri", "Bilateral", "Jari-jari"],
+    "lokasi": [
+      "Tangan kanan",
+      "Tangan kiri",
+      "Bilateral",
+      "Jari-jari"
+    ],
     "durasi": [
       "Sudah berbulan-bulan",
       "Semakin berat 1 bulan",
@@ -7172,8 +8211,15 @@
       "Keringat dingin"
     ],
     "predictive_next": {
-      "if_unilateral": ["Parkinson awal", "Lesi fokal CNS"],
-      "if_bilateral": ["Tremor esensial", "Hipertiroid", "Efek samping obat"],
+      "if_unilateral": [
+        "Parkinson awal",
+        "Lesi fokal CNS"
+      ],
+      "if_bilateral": [
+        "Tremor esensial",
+        "Hipertiroid",
+        "Efek samping obat"
+      ],
       "red_flags": [
         "Tremor + rigiditas + bradikinesia (Parkinson)",
         "Tremor + BB turun + takikardia (tirotoksikosis)",
@@ -7192,15 +8238,30 @@
         "Tes Menulis/Menggambar Spiral",
         "Inspeksi Tiroid"
       ],
-      "lab": ["TSH/FT4", "DL", "GDS", "Elektrolit"],
-      "penunjang": ["CT-Scan Kepala"]
+      "lab": [
+        "TSH/FT4",
+        "DL",
+        "GDS",
+        "Elektrolit"
+      ],
+      "penunjang": [
+        "CT-Scan Kepala"
+      ]
     }
   },
   "menggigil": {
     "clinical_entity": "menggigil",
     "sifat": {
-      "formal": ["Rigor", "Menggigil febris", "Shivering episode"],
-      "klinis": ["Rigor", "Chills", "Febrile shivering"],
+      "formal": [
+        "Rigor",
+        "Menggigil febris",
+        "Shivering episode"
+      ],
+      "klinis": [
+        "Rigor",
+        "Chills",
+        "Febrile shivering"
+      ],
       "narasi": [
         "Badan menggigil kedinginan",
         "Gemetar seluruh badan saat demam",
@@ -7209,7 +8270,9 @@
         "Menggigil hilang timbul"
       ]
     },
-    "lokasi": ["Seluruh tubuh"],
+    "lokasi": [
+      "Seluruh tubuh"
+    ],
     "durasi": [
       "Sejak tadi malam",
       "Berulang setiap sore/malam",
@@ -7238,7 +8301,12 @@
       "Rigor onset {Waktu}, suhu {Suhu}°C, disertai {Gejala_Penyerta}."
     ],
     "pemeriksaan": {
-      "fisik": ["Pengukuran Suhu", "TD", "Nadi", "Palpasi Hepar/Lien"],
+      "fisik": [
+        "Pengukuran Suhu",
+        "TD",
+        "Nadi",
+        "Palpasi Hepar/Lien"
+      ],
       "lab": [
         "DL",
         "DDR (Darah tebal/tipis malaria)",
@@ -7252,8 +8320,16 @@
   "benjolan leher ketiak": {
     "clinical_entity": "benjolan leher ketiak",
     "sifat": {
-      "formal": ["Limfadenopati", "Pembesaran KGB", "Limfadenitis"],
-      "klinis": ["Lymphadenopathy", "Lymphadenitis", "Lymph node enlargement"],
+      "formal": [
+        "Limfadenopati",
+        "Pembesaran KGB",
+        "Limfadenitis"
+      ],
+      "klinis": [
+        "Lymphadenopathy",
+        "Lymphadenitis",
+        "Lymph node enlargement"
+      ],
       "narasi": [
         "Ada benjolan di leher",
         "Benjolan di ketiak nyeri",
@@ -7289,7 +8365,11 @@
         "Abses KGB",
         "Metastasis"
       ],
-      "if_bilateral": ["Infeksi virus sistemik", "TB kelenjar", "Limfoma"],
+      "if_bilateral": [
+        "Infeksi virus sistemik",
+        "TB kelenjar",
+        "Limfoma"
+      ],
       "red_flags": [
         "KGB supraklavikula kiri (Virchow node — keganasan GI)",
         "KGB keras ireguler tidak nyeri (keganasan)",
@@ -7306,15 +8386,32 @@
         "Inspeksi THT",
         "Palpasi Hepar/Lien"
       ],
-      "lab": ["DL", "LED/CRP", "LDH", "BTA Sputum"],
-      "penunjang": ["USG Soft Tissue", "Foto Thorax AP", "FNAB"]
+      "lab": [
+        "DL",
+        "LED/CRP",
+        "LDH",
+        "BTA Sputum"
+      ],
+      "penunjang": [
+        "USG Soft Tissue",
+        "Foto Thorax AP",
+        "FNAB"
+      ]
     }
   },
   "anosmia": {
     "clinical_entity": "anosmia",
     "sifat": {
-      "formal": ["Anosmia", "Hiposmia", "Gangguan penciuman"],
-      "klinis": ["Anosmia", "Hyposmia", "Olfactory dysfunction"],
+      "formal": [
+        "Anosmia",
+        "Hiposmia",
+        "Gangguan penciuman"
+      ],
+      "klinis": [
+        "Anosmia",
+        "Hyposmia",
+        "Olfactory dysfunction"
+      ],
       "narasi": [
         "Tidak bisa mencium bau",
         "Hidung tidak bisa membau",
@@ -7323,7 +8420,10 @@
         "Bau-bauan tidak tercium sama sekali"
       ]
     },
-    "lokasi": ["Kavum nasi", "Mukosa olfaktorius"],
+    "lokasi": [
+      "Kavum nasi",
+      "Mukosa olfaktorius"
+    ],
     "durasi": [
       "Mendadak sejak 2 hari",
       "Sudah berminggu-minggu",
@@ -7338,7 +8438,10 @@
       "Bersin-bersin"
     ],
     "predictive_next": {
-      "if_unilateral": ["Polip nasi unilateral", "Masa kavum nasi"],
+      "if_unilateral": [
+        "Polip nasi unilateral",
+        "Masa kavum nasi"
+      ],
       "if_bilateral": [
         "Infeksi virus (COVID-19)",
         "Rinitis kronik",
@@ -7360,15 +8463,28 @@
         "Tes Penciuman (Scratch and Sniff)",
         "Inspeksi Kavum Nasi"
       ],
-      "lab": ["Swab Antigen/PCR (jika curiga COVID)"],
-      "penunjang": ["CT-Scan Sinus", "Nasoendoskopi"]
+      "lab": [
+        "Swab Antigen/PCR (jika curiga COVID)"
+      ],
+      "penunjang": [
+        "CT-Scan Sinus",
+        "Nasoendoskopi"
+      ]
     }
   },
   "nyeri wajah": {
     "clinical_entity": "nyeri wajah",
     "sifat": {
-      "formal": ["Neuralgia trigeminal", "Nyeri fasial", "Prosopalgia"],
-      "klinis": ["Trigeminal neuralgia", "Facial pain", "Atypical facial pain"],
+      "formal": [
+        "Neuralgia trigeminal",
+        "Nyeri fasial",
+        "Prosopalgia"
+      ],
+      "klinis": [
+        "Trigeminal neuralgia",
+        "Facial pain",
+        "Atypical facial pain"
+      ],
       "narasi": [
         "Wajah nyeri seperti tersengat listrik",
         "Separuh wajah sakit mendadak",
@@ -7398,8 +8514,15 @@
       "Kebas wajah"
     ],
     "predictive_next": {
-      "if_unilateral": ["Neuralgia trigeminal", "Sinusitis", "Herpes zoster"],
-      "if_bilateral": ["Nyeri fasial atipikal", "Multiple sclerosis"],
+      "if_unilateral": [
+        "Neuralgia trigeminal",
+        "Sinusitis",
+        "Herpes zoster"
+      ],
+      "if_bilateral": [
+        "Nyeri fasial atipikal",
+        "Multiple sclerosis"
+      ],
       "red_flags": [
         "Wajah asimetris + tidak bisa menutup mata (Bell's palsy)",
         "Nyeri + massa di wajah (tumor)",
@@ -7417,8 +8540,13 @@
         "Tes Motorik N.VII",
         "Palpasi Sinus"
       ],
-      "lab": ["LED/CRP"],
-      "penunjang": ["CT-Scan Kepala", "MRI Kepala"]
+      "lab": [
+        "LED/CRP"
+      ],
+      "penunjang": [
+        "CT-Scan Kepala",
+        "MRI Kepala"
+      ]
     }
   },
   "telinga terasa penuh": {
@@ -7442,7 +8570,11 @@
         "Denging disertai rasa penuh"
       ]
     },
-    "lokasi": ["Telinga kanan", "Telinga kiri", "Bilateral"],
+    "lokasi": [
+      "Telinga kanan",
+      "Telinga kiri",
+      "Bilateral"
+    ],
     "durasi": [
       "Sejak 3 hari lalu",
       "Hilang timbul 1 minggu",
@@ -7457,8 +8589,16 @@
       "Nyeri telinga ringan"
     ],
     "predictive_next": {
-      "if_unilateral": ["Serumen prop", "Otitis media efusi", "Disfungsi tuba"],
-      "if_bilateral": ["ISPA", "Alergi", "Disfungsi tuba bilateral"],
+      "if_unilateral": [
+        "Serumen prop",
+        "Otitis media efusi",
+        "Disfungsi tuba"
+      ],
+      "if_bilateral": [
+        "ISPA",
+        "Alergi",
+        "Disfungsi tuba bilateral"
+      ],
       "red_flags": [
         "Telinga penuh + vertigo + tuli mendadak (Meniere)",
         "Telinga penuh unilateral persisten (nasofaring Ca)",
@@ -7470,15 +8610,27 @@
       "Aural fullness {Lokasi} onset {Waktu}, disertai {Gejala_Penyerta}."
     ],
     "pemeriksaan": {
-      "fisik": ["Otoskopi", "Tes Rinne", "Tes Weber", "Valsava Maneuver"],
+      "fisik": [
+        "Otoskopi",
+        "Tes Rinne",
+        "Tes Weber",
+        "Valsava Maneuver"
+      ],
       "lab": [],
-      "penunjang": ["Audiometri", "Timpanometri"]
+      "penunjang": [
+        "Audiometri",
+        "Timpanometri"
+      ]
     }
   },
   "benjolan anus": {
     "clinical_entity": "benjolan anus",
     "sifat": {
-      "formal": ["Hemoroid prolaps", "Prolaps rekti", "Trombosis hemoroid"],
+      "formal": [
+        "Hemoroid prolaps",
+        "Prolaps rekti",
+        "Trombosis hemoroid"
+      ],
       "klinis": [
         "Prolapsed hemorrhoids",
         "Thrombosed hemorrhoids",
@@ -7492,7 +8644,11 @@
         "Wasir membesar dan keluar"
       ]
     },
-    "lokasi": ["Anus", "Perianal", "Kanalis analis"],
+    "lokasi": [
+      "Anus",
+      "Perianal",
+      "Kanalis analis"
+    ],
     "durasi": [
       "Sudah berminggu-minggu",
       "Semakin besar 1 bulan",
@@ -7520,8 +8676,14 @@
       "Hemoroid derajat {Derajat} onset {Waktu}, disertai {Gejala_Penyerta}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Perianal", "Rectal Toucher (RT)", "Anoskopi"],
-      "lab": ["DL"],
+      "fisik": [
+        "Inspeksi Perianal",
+        "Rectal Toucher (RT)",
+        "Anoskopi"
+      ],
+      "lab": [
+        "DL"
+      ],
       "penunjang": []
     }
   },
@@ -7546,7 +8708,12 @@
         "Kencing merah tanpa rasa sakit"
       ]
     },
-    "lokasi": ["Ginjal", "Ureter", "Kandung kemih", "Uretra"],
+    "lokasi": [
+      "Ginjal",
+      "Ureter",
+      "Kandung kemih",
+      "Uretra"
+    ],
     "durasi": [
       "Baru pertama kali kemarin",
       "Hilang timbul 1 minggu",
@@ -7579,15 +8746,30 @@
         "Palpasi Suprapubik",
         "Pengukuran TD"
       ],
-      "lab": ["UL (Urinalisis Lengkap)", "DL", "BUN/SK"],
-      "penunjang": ["USG Ginjal dan Kandung Kemih", "Foto BNO/IVP"]
+      "lab": [
+        "UL (Urinalisis Lengkap)",
+        "DL",
+        "BUN/SK"
+      ],
+      "penunjang": [
+        "USG Ginjal dan Kandung Kemih",
+        "Foto BNO/IVP"
+      ]
     }
   },
   "kencing berpasir": {
     "clinical_entity": "kencing berpasir",
     "sifat": {
-      "formal": ["Crystalluria", "Urolithiasis mikro", "Nefrolithiasis"],
-      "klinis": ["Crystalluria", "Urinary gravel", "Micro-urolithiasis"],
+      "formal": [
+        "Crystalluria",
+        "Urolithiasis mikro",
+        "Nefrolithiasis"
+      ],
+      "klinis": [
+        "Crystalluria",
+        "Urinary gravel",
+        "Micro-urolithiasis"
+      ],
       "narasi": [
         "Kencing terasa berpasir",
         "Ada butiran saat kencing",
@@ -7596,7 +8778,12 @@
         "Kencing sakit seperti ada batu kecil"
       ]
     },
-    "lokasi": ["Ginjal", "Ureter", "Kandung kemih", "Uretra"],
+    "lokasi": [
+      "Ginjal",
+      "Ureter",
+      "Kandung kemih",
+      "Uretra"
+    ],
     "durasi": [
       "Sejak 1 minggu",
       "Hilang timbul berbulan-bulan",
@@ -7624,20 +8811,30 @@
       "Crystalluria onset {Waktu}, disertai {Gejala_Penyerta}."
     ],
     "pemeriksaan": {
-      "fisik": ["Palpasi Ginjal (CVA Tenderness)", "Palpasi Suprapubik"],
+      "fisik": [
+        "Palpasi Ginjal (CVA Tenderness)",
+        "Palpasi Suprapubik"
+      ],
       "lab": [
         "UL (Urinalisis Lengkap)",
         "BUN/SK",
         "Asam Urat",
         "Kalsium Urine"
       ],
-      "penunjang": ["USG Ginjal", "Foto BNO"]
+      "penunjang": [
+        "USG Ginjal",
+        "Foto BNO"
+      ]
     }
   },
   "anyang-anyangan": {
     "clinical_entity": "anyang-anyangan",
     "sifat": {
-      "formal": ["Sistitis akut", "Infeksi kandung kemih", "Lower UTI"],
+      "formal": [
+        "Sistitis akut",
+        "Infeksi kandung kemih",
+        "Lower UTI"
+      ],
       "klinis": [
         "Acute cystitis",
         "Lower urinary tract infection",
@@ -7651,7 +8848,11 @@
         "Kencing terasa panas dan tidak puas"
       ]
     },
-    "lokasi": ["Kandung kemih", "Suprapubik", "Uretra"],
+    "lokasi": [
+      "Kandung kemih",
+      "Suprapubik",
+      "Uretra"
+    ],
     "durasi": [
       "Sejak 2 hari lalu",
       "Hilang timbul 1 minggu",
@@ -7679,9 +8880,19 @@
       "Sistitis akut onset {Waktu}, frekuensi BAK {N}x/hari."
     ],
     "pemeriksaan": {
-      "fisik": ["Palpasi Suprapubik", "CVA Tenderness", "Pengukuran Suhu"],
-      "lab": ["UL (Urinalisis Lengkap)", "DL", "Kultur Urine"],
-      "penunjang": ["USG Kandung Kemih"]
+      "fisik": [
+        "Palpasi Suprapubik",
+        "CVA Tenderness",
+        "Pengukuran Suhu"
+      ],
+      "lab": [
+        "UL (Urinalisis Lengkap)",
+        "DL",
+        "Kultur Urine"
+      ],
+      "penunjang": [
+        "USG Kandung Kemih"
+      ]
     }
   },
   "gatal kemaluan": {
@@ -7692,7 +8903,11 @@
         "Kandidiasis vulvovaginalis",
         "Tinea cruris"
       ],
-      "klinis": ["Genital pruritus", "Vulvovaginal candidiasis", "Jock itch"],
+      "klinis": [
+        "Genital pruritus",
+        "Vulvovaginal candidiasis",
+        "Jock itch"
+      ],
       "narasi": [
         "Gatal di area kemaluan",
         "Kemaluan gatal terutama malam hari",
@@ -7701,7 +8916,13 @@
         "Gatal di kemaluan disertai keputihan"
       ]
     },
-    "lokasi": ["Vulva", "Skrotum", "Perineum", "Lipatan inguinal", "Perianal"],
+    "lokasi": [
+      "Vulva",
+      "Skrotum",
+      "Perineum",
+      "Lipatan inguinal",
+      "Perianal"
+    ],
     "durasi": [
       "Sejak 1 minggu",
       "Hilang timbul berbulan-bulan",
@@ -7734,15 +8955,27 @@
         "Inspeksi Lesi Kulit",
         "Palpasi KGB Inguinal"
       ],
-      "lab": ["KOH Scraping", "UL", "Swab Genital"],
+      "lab": [
+        "KOH Scraping",
+        "UL",
+        "Swab Genital"
+      ],
       "penunjang": []
     }
   },
   "nyeri berhubungan": {
     "clinical_entity": "nyeri berhubungan",
     "sifat": {
-      "formal": ["Dispareunia", "Nyeri koitus", "Vulvodynia"],
-      "klinis": ["Dyspareunia", "Coital pain", "Vulvodynia"],
+      "formal": [
+        "Dispareunia",
+        "Nyeri koitus",
+        "Vulvodynia"
+      ],
+      "klinis": [
+        "Dyspareunia",
+        "Coital pain",
+        "Vulvodynia"
+      ],
       "narasi": [
         "Sakit saat berhubungan intim",
         "Nyeri di bawah saat berhubungan",
@@ -7751,7 +8984,12 @@
         "Nyeri dalam saat berhubungan"
       ]
     },
-    "lokasi": ["Introitus vagina", "Vagina", "Pelvis dalam", "Vulva"],
+    "lokasi": [
+      "Introitus vagina",
+      "Vagina",
+      "Pelvis dalam",
+      "Vulva"
+    ],
     "durasi": [
       "Sejak beberapa bulan lalu",
       "Setiap kali berhubungan",
@@ -7785,14 +9023,23 @@
         "VT (Vaginal Toucher)",
         "Nyeri Goyang Porsio"
       ],
-      "lab": ["UL", "Swab Vagina"],
-      "penunjang": ["USG Transvaginal"]
+      "lab": [
+        "UL",
+        "Swab Vagina"
+      ],
+      "penunjang": [
+        "USG Transvaginal"
+      ]
     }
   },
   "lepuhan berair": {
     "clinical_entity": "lepuhan berair",
     "sifat": {
-      "formal": ["Vesikel/bula", "Erupsi vesikular", "Lesi vesikobulosa"],
+      "formal": [
+        "Vesikel/bula",
+        "Erupsi vesikular",
+        "Lesi vesikobulosa"
+      ],
       "klinis": [
         "Vesicular eruption",
         "Herpetiform lesion",
@@ -7827,8 +9074,15 @@
       "Nyeri otot"
     ],
     "predictive_next": {
-      "if_unilateral": ["Herpes zoster (dermatomal)", "Herpes simpleks"],
-      "if_bilateral": ["Varicella", "Hand-Foot-Mouth Disease", "Reaksi obat"],
+      "if_unilateral": [
+        "Herpes zoster (dermatomal)",
+        "Herpes simpleks"
+      ],
+      "if_bilateral": [
+        "Varicella",
+        "Hand-Foot-Mouth Disease",
+        "Reaksi obat"
+      ],
       "red_flags": [
         "Vesikel di ujung hidung (Herpes zoster oftalmikus — Hutchinson sign)",
         "Lesi meluas cepat + demam tinggi (varicella pada imunosupresi)",
@@ -7845,7 +9099,10 @@
         "Distribusi Lesi (Dermatomal/Difus)",
         "Tanda Nikolsky"
       ],
-      "lab": ["DL", "Tzanck Smear"],
+      "lab": [
+        "DL",
+        "Tzanck Smear"
+      ],
       "penunjang": []
     }
   },
@@ -7870,7 +9127,12 @@
         "Gatal luar biasa di bekas gigitan"
       ]
     },
-    "lokasi": ["Ekstremitas", "Wajah", "Badan", "Area terbuka"],
+    "lokasi": [
+      "Ekstremitas",
+      "Wajah",
+      "Badan",
+      "Area terbuka"
+    ],
     "durasi": [
       "Sejak kemarin",
       "Baru tadi pagi",
@@ -7903,7 +9165,9 @@
         "Pengukuran Area Eritema",
         "Palpasi KGB Regional"
       ],
-      "lab": ["DL"],
+      "lab": [
+        "DL"
+      ],
       "penunjang": []
     }
   },
@@ -7928,7 +9192,12 @@
         "Tangan pucat dan dingin"
       ]
     },
-    "lokasi": ["Tangan", "Kaki", "Jari tangan", "Jari kaki"],
+    "lokasi": [
+      "Tangan",
+      "Kaki",
+      "Jari tangan",
+      "Jari kaki"
+    ],
     "durasi": [
       "Sudah berminggu-minggu",
       "Hilang timbul",
@@ -7944,7 +9213,10 @@
       "Sesak napas"
     ],
     "predictive_next": {
-      "if_unilateral": ["Gangguan vaskuler lokal", "Raynaud phenomenon"],
+      "if_unilateral": [
+        "Gangguan vaskuler lokal",
+        "Raynaud phenomenon"
+      ],
       "if_bilateral": [
         "Anemia",
         "Dehidrasi",
@@ -7968,15 +9240,29 @@
         "Pengukuran TD",
         "Akral (Suhu/Warna)"
       ],
-      "lab": ["DL", "GDS", "Elektrolit"],
-      "penunjang": ["EKG"]
+      "lab": [
+        "DL",
+        "GDS",
+        "Elektrolit"
+      ],
+      "penunjang": [
+        "EKG"
+      ]
     }
   },
   "bau badan": {
     "clinical_entity": "bau badan",
     "sifat": {
-      "formal": ["Bromhidrosis", "Hiperhidrosis dengan malodor", "Osmhidrosis"],
-      "klinis": ["Bromhidrosis", "Body odor", "Osmidrosis"],
+      "formal": [
+        "Bromhidrosis",
+        "Hiperhidrosis dengan malodor",
+        "Osmhidrosis"
+      ],
+      "klinis": [
+        "Bromhidrosis",
+        "Body odor",
+        "Osmidrosis"
+      ],
       "narasi": [
         "Bau badan menyengat meski sudah mandi",
         "Ketiak bau tidak hilang-hilang",
@@ -7985,7 +9271,12 @@
         "Pakaian cepat bau keringat"
       ]
     },
-    "lokasi": ["Aksila", "Kaki", "Lipatan inguinal", "Seluruh tubuh"],
+    "lokasi": [
+      "Aksila",
+      "Kaki",
+      "Lipatan inguinal",
+      "Seluruh tubuh"
+    ],
     "durasi": [
       "Sudah bertahun-tahun",
       "Semakin parah 3 bulan",
@@ -8012,16 +9303,30 @@
       "Bromhidrosis regio {Lokasi}, onset {Waktu}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Kulit Aksila", "Inspeksi Lipatan Kulit"],
-      "lab": ["GDS", "BUN/SK"],
+      "fisik": [
+        "Inspeksi Kulit Aksila",
+        "Inspeksi Lipatan Kulit"
+      ],
+      "lab": [
+        "GDS",
+        "BUN/SK"
+      ],
       "penunjang": []
     }
   },
   "kuku rapuh": {
     "clinical_entity": "kuku rapuh",
     "sifat": {
-      "formal": ["Onikomikosis", "Distrofi kuku", "Onikodistrofi"],
-      "klinis": ["Onychomycosis", "Nail dystrophy", "Brittle nails"],
+      "formal": [
+        "Onikomikosis",
+        "Distrofi kuku",
+        "Onikodistrofi"
+      ],
+      "klinis": [
+        "Onychomycosis",
+        "Nail dystrophy",
+        "Brittle nails"
+      ],
       "narasi": [
         "Kuku menebal dan berubah warna",
         "Kuku rapuh mudah patah",
@@ -8030,7 +9335,11 @@
         "Kuku hancur dan berlubang"
       ]
     },
-    "lokasi": ["Kuku jari kaki", "Kuku jari tangan", "Kuku ibu jari"],
+    "lokasi": [
+      "Kuku jari kaki",
+      "Kuku jari tangan",
+      "Kuku ibu jari"
+    ],
     "durasi": [
       "Sudah berbulan-bulan",
       "Semakin parah 6 bulan",
@@ -8057,8 +9366,15 @@
       "Onikomikosis regio {Lokasi}, onset {Waktu}."
     ],
     "pemeriksaan": {
-      "fisik": ["Inspeksi Kuku", "KOH Scraping Kuku", "Dermatoskopi Kuku"],
-      "lab": ["KOH Scraping", "Kultur Jamur"],
+      "fisik": [
+        "Inspeksi Kuku",
+        "KOH Scraping Kuku",
+        "Dermatoskopi Kuku"
+      ],
+      "lab": [
+        "KOH Scraping",
+        "Kultur Jamur"
+      ],
       "penunjang": []
     }
   },
@@ -8083,7 +9399,12 @@
         "Tenggorokan terasa sempit"
       ]
     },
-    "lokasi": ["Orofaring", "Hipofaring", "Leher anterior", "Tiroid"],
+    "lokasi": [
+      "Orofaring",
+      "Hipofaring",
+      "Leher anterior",
+      "Tiroid"
+    ],
     "durasi": [
       "Hilang timbul berminggu-minggu",
       "Semakin sering 1 bulan",
@@ -8116,8 +9437,13 @@
         "Inspeksi Orofaring",
         "Palpasi KGB Leher"
       ],
-      "lab": ["TSH/FT4"],
-      "penunjang": ["USG Tiroid", "Laringoskopi"]
+      "lab": [
+        "TSH/FT4"
+      ],
+      "penunjang": [
+        "USG Tiroid",
+        "Laringoskopi"
+      ]
     }
   }
 }

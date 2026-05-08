@@ -1,13 +1,14 @@
-# AUDREY Installer Build Guide
+<!-- classy+'s vision, brought to life. -->
+# SIDELAB Installer Build Guide
 
-Panduan ini untuk membangun `AUDREY-SETUP.exe`.
+Panduan ini untuk membangun `SIDELAB-SETUP.exe`.
 
 ## Tujuan
 
 Installer final harus:
-- membundel Audrey runtime
+- membundel SideLab runtime
 - membundel Python embedded
-- memakai `audrey.ico` untuk installer dan shortcut desktop
+- memakai `sidelab.ico` untuk installer dan shortcut desktop
 - tetap membawa `sounds/notif.mp3`
 - menyiapkan DeepSeek sebagai backend default runtime
 - tetap menyediakan opsi Local/Ollama sebagai fallback
@@ -17,11 +18,11 @@ Installer final harus:
 Tempatkan file berikut:
 
 - `installer/assets/classy.png`
-- `installer/assets/audrey.ico`
+- `installer/assets/sidelab.ico`
 
 Catatan:
 - `classy.png` dipakai sebagai sumber branding utama
-- `audrey.ico` dipakai oleh Inno Setup dan shortcut Windows
+- `sidelab.ico` dipakai oleh Inno Setup dan shortcut Windows
 
 ## Runtime yang Wajib Ada
 
@@ -89,11 +90,11 @@ powershell -ExecutionPolicy Bypass -File installer/build-installer.ps1 -SkipComp
 
 File akhir:
 
-- `dist/AUDREY-SETUP.exe`
+- `dist/SIDELAB-SETUP.exe`
 
 ## Flow Installer
 
-1. Copy payload Audrey
+1. Copy payload SideLab
 2. Extract Python embedded
 3. Bootstrap pip
 4. Install dependency dari wheelhouse
@@ -101,13 +102,13 @@ File akhir:
 6. Smoke test DeepSeek jika `DEEPSEEK_API_KEY` tersedia
 7. Cek / install Ollama hanya bila Local dibutuhkan
 8. Buat shortcut desktop:
-   - `AUDREY`
-   - `AUDREY Diagnose`
+   - `SIDELAB`
+   - `SIDELAB Diagnose`
 
 ## Catatan Penting
 
 - `sounds/notif.mp3` ikut terbawa karena diambil dari payload app
-- shortcut utama tetap menuju `AUDREY.bat`
+- shortcut utama tetap menuju `SIDELAB.bat`
 - installer dirancang untuk Windows user biasa, jadi default install memakai:
-  - `{localappdata}\AUDREY`
+  - `{localappdata}\SIDELAB`
 - build ini masih bergantung pada asset/icon final dari Anda

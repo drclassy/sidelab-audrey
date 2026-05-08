@@ -1,4 +1,5 @@
 {
+  "_brand": "Masterplan and masterpiece by classy+.",
   "metadata": {
     "title": "Database 144 Penyakit Puskesmas (SKDI 4A) dengan Terapi Farmakologi",
     "version": "1.0.0",
@@ -75,7 +76,11 @@
         "Usia <6 bulan",
         "Kejang berulang >2x dalam 24 jam"
       ],
-      "tags": ["pediatri", "neurologi", "emergensi"]
+      "tags": [
+        "pediatri",
+        "neurologi",
+        "emergensi"
+      ]
     },
     {
       "id": 2,
@@ -140,7 +145,11 @@
         "Spasme berat",
         "Gagal napas"
       ],
-      "tags": ["infeksi", "neurologi", "emergensi"]
+      "tags": [
+        "infeksi",
+        "neurologi",
+        "emergensi"
+      ]
     },
     {
       "id": 3,
@@ -214,7 +223,11 @@
         "Gagal terapi ARV lini 1",
         "Efek samping berat ARV"
       ],
-      "tags": ["infeksi", "imunologi", "kronik"]
+      "tags": [
+        "infeksi",
+        "imunologi",
+        "kronik"
+      ]
     },
     {
       "id": 4,
@@ -262,7 +275,10 @@
         "Tidak respons terapi >3 bulan",
         "Red flags: papil edema, defisit neurologis"
       ],
-      "tags": ["neurologi", "nyeri"]
+      "tags": [
+        "neurologi",
+        "nyeri"
+      ]
     },
     {
       "id": 5,
@@ -334,7 +350,10 @@
         "Tidak respons terapi profilaksis",
         "Aura atipikal"
       ],
-      "tags": ["neurologi", "nyeri"]
+      "tags": [
+        "neurologi",
+        "nyeri"
+      ]
     },
     {
       "id": 6,
@@ -383,7 +402,9 @@
         "Paralisis bilateral",
         "Rekurensi"
       ],
-      "tags": ["neurologi"]
+      "tags": [
+        "neurologi"
+      ]
     },
     {
       "id": 7,
@@ -432,7 +453,10 @@
         "Tidak respons manuver reposisi",
         "Gejala neurologis fokal"
       ],
-      "tags": ["neurologi", "THT"]
+      "tags": [
+        "neurologi",
+        "THT"
+      ]
     },
     {
       "id": 8,
@@ -472,7 +496,9 @@
         "Ide bunuh diri",
         "Tidak respons terapi"
       ],
-      "tags": ["psikiatri"]
+      "tags": [
+        "psikiatri"
+      ]
     },
     {
       "id": 9,
@@ -521,7 +547,10 @@
         "Curiga sleep apnea",
         "Gangguan psikiatri komorbid"
       ],
-      "tags": ["psikiatri", "neurologi"]
+      "tags": [
+        "psikiatri",
+        "neurologi"
+      ]
     },
     {
       "id": 10,
@@ -570,7 +599,9 @@
         "Gejala psikotik",
         "Tidak respons terapi 8 minggu"
       ],
-      "tags": ["psikiatri"]
+      "tags": [
+        "psikiatri"
+      ]
     },
     {
       "id": 11,
@@ -611,7 +642,11 @@
         "Penurunan fungsi cepat",
         "Kebutuhan pencitraan otak"
       ],
-      "tags": ["psikiatri", "neurologi", "geriatri"]
+      "tags": [
+        "psikiatri",
+        "neurologi",
+        "geriatri"
+      ]
     },
     {
       "id": 12,
@@ -668,7 +703,10 @@
         "Tidak respons terapi",
         "Komorbid penyalahgunaan zat"
       ],
-      "tags": ["psikiatri", "emergensi"]
+      "tags": [
+        "psikiatri",
+        "emergensi"
+      ]
     },
     {
       "id": 13,
@@ -717,7 +755,10 @@
         "Tidak membaik dalam 1 minggu",
         "Gangguan visus"
       ],
-      "tags": ["mata", "infeksi"]
+      "tags": [
+        "mata",
+        "infeksi"
+      ]
     },
     {
       "id": 14,
@@ -748,7 +789,9 @@
         "Perdarahan berulang",
         "Gangguan pembekuan darah"
       ],
-      "tags": ["mata"]
+      "tags": [
+        "mata"
+      ]
     },
     {
       "id": 15,
@@ -779,7 +822,9 @@
         "Tidak respons terapi lubrikasi",
         "Curiga Sjogren syndrome"
       ],
-      "tags": ["mata"]
+      "tags": [
+        "mata"
+      ]
     },
     {
       "id": 16,
@@ -817,7 +862,9 @@
         "Blefaritis kronik rekuren",
         "Komplikasi kalazion/hordeolum"
       ],
-      "tags": ["mata"]
+      "tags": [
+        "mata"
+      ]
     },
     {
       "id": 17,
@@ -865,7 +912,10 @@
         "Hordeolum berulang",
         "Tidak membaik dalam 2 minggu"
       ],
-      "tags": ["mata", "infeksi"]
+      "tags": [
+        "mata",
+        "infeksi"
+      ]
     },
     {
       "id": 18,
@@ -895,7 +945,9 @@
         "Kerusakan kornea",
         "Rekurensi"
       ],
-      "tags": ["mata"]
+      "tags": [
+        "mata"
+      ]
     },
     {
       "id": 19,
@@ -942,7 +994,9 @@
         "Tidak membaik dalam 2 minggu",
         "Penurunan visus"
       ],
-      "tags": ["mata"]
+      "tags": [
+        "mata"
+      ]
     },
     {
       "id": 20,
@@ -963,7 +1017,10 @@
         "Ambliopia",
         "Strabismus akomodatif"
       ],
-      "tags": ["mata", "refraksi"]
+      "tags": [
+        "mata",
+        "refraksi"
+      ]
     },
     {
       "id": 21,
@@ -985,7 +1042,10 @@
         "Ablasio retina",
         "Degenerasi makula miopik"
       ],
-      "tags": ["mata", "refraksi"]
+      "tags": [
+        "mata",
+        "refraksi"
+      ]
     },
     {
       "id": 22,
@@ -1001,8 +1061,14 @@
         "Koreksi kacamata lensa silinder",
         "Pemeriksaan refraksi berkala"
       ],
-      "referral_criteria": ["Astigmatisme irregular", "Curiga keratokonus"],
-      "tags": ["mata", "refraksi"]
+      "referral_criteria": [
+        "Astigmatisme irregular",
+        "Curiga keratokonus"
+      ],
+      "tags": [
+        "mata",
+        "refraksi"
+      ]
     },
     {
       "id": 23,
@@ -1022,7 +1088,11 @@
         "Keluhan tidak terkoreksi dengan kacamata baca",
         "Curiga kelainan lain"
       ],
-      "tags": ["mata", "refraksi", "geriatri"]
+      "tags": [
+        "mata",
+        "refraksi",
+        "geriatri"
+      ]
     },
     {
       "id": 24,
@@ -1060,7 +1130,11 @@
         "Xeroftalmia stadium lanjut (ulkus kornea)",
         "Keratomalasia"
       ],
-      "tags": ["mata", "nutrisi", "pediatri"]
+      "tags": [
+        "mata",
+        "nutrisi",
+        "pediatri"
+      ]
     },
     {
       "id": 25,
@@ -1115,7 +1189,10 @@
         "Otitis eksterna maligna",
         "Tidak respons terapi topikal 2 minggu"
       ],
-      "tags": ["THT", "infeksi"]
+      "tags": [
+        "THT",
+        "infeksi"
+      ]
     },
     {
       "id": 26,
@@ -1171,7 +1248,11 @@
         "Komplikasi (mastoiditis)",
         "Perforasi membran timpani menetap"
       ],
-      "tags": ["THT", "infeksi", "pediatri"]
+      "tags": [
+        "THT",
+        "infeksi",
+        "pediatri"
+      ]
     },
     {
       "id": 27,
@@ -1202,7 +1283,9 @@
         "Perforasi membran timpani",
         "Riwayat operasi telinga"
       ],
-      "tags": ["THT"]
+      "tags": [
+        "THT"
+      ]
     },
     {
       "id": 28,
@@ -1249,7 +1332,9 @@
       "referral_criteria": [
         "Gejala tidak proporsional (curiga vertigo sentral)"
       ],
-      "tags": ["THT"]
+      "tags": [
+        "THT"
+      ]
     },
     {
       "id": 29,
@@ -1297,7 +1382,10 @@
         "Tanda trombosis sinus kavernosus",
         "Sepsis"
       ],
-      "tags": ["THT", "infeksi"]
+      "tags": [
+        "THT",
+        "infeksi"
+      ]
     },
     {
       "id": 30,
@@ -1340,8 +1428,14 @@
         "Minum banyak air hangat",
         "Inhalasi uap"
       ],
-      "referral_criteria": ["Komplikasi sinusitis", "Gejala >10 hari"],
-      "tags": ["THT", "infeksi"]
+      "referral_criteria": [
+        "Komplikasi sinusitis",
+        "Gejala >10 hari"
+      ],
+      "tags": [
+        "THT",
+        "infeksi"
+      ]
     },
     {
       "id": 31,
@@ -1379,7 +1473,9 @@
         "Tidak respons terapi konservatif",
         "Curiga polip nasi"
       ],
-      "tags": ["THT"]
+      "tags": [
+        "THT"
+      ]
     },
     {
       "id": 32,
@@ -1426,7 +1522,10 @@
         "Rinitis alergika berat tidak respons terapi",
         "Komplikasi: sinusitis, polip"
       ],
-      "tags": ["THT", "alergi"]
+      "tags": [
+        "THT",
+        "alergi"
+      ]
     },
     {
       "id": 33,
@@ -1464,7 +1563,10 @@
         "Benda asing tajam/baterai",
         "Komplikasi perforasi"
       ],
-      "tags": ["THT", "emergensi"]
+      "tags": [
+        "THT",
+        "emergensi"
+      ]
     },
     {
       "id": 34,
@@ -1513,7 +1615,10 @@
         "Perdarahan masif",
         "Epistaksis berulang"
       ],
-      "tags": ["THT", "emergensi"]
+      "tags": [
+        "THT",
+        "emergensi"
+      ]
     },
     {
       "id": 35,
@@ -1560,7 +1665,10 @@
         "Sesak napas berat",
         "Gejala >10 hari tanpa perbaikan"
       ],
-      "tags": ["respirasi", "infeksi"]
+      "tags": [
+        "respirasi",
+        "infeksi"
+      ]
     },
     {
       "id": 36,
@@ -1616,7 +1724,11 @@
         "Tonsilitis kronik (>7 episode/tahun)",
         "Obstruksi jalan napas"
       ],
-      "tags": ["respirasi", "THT", "infeksi"]
+      "tags": [
+        "respirasi",
+        "THT",
+        "infeksi"
+      ]
     },
     {
       "id": 37,
@@ -1663,7 +1775,10 @@
         "Abses retrofaring",
         "Komplikasi: demam reumatik, GNAPS"
       ],
-      "tags": ["respirasi", "infeksi"]
+      "tags": [
+        "respirasi",
+        "infeksi"
+      ]
     },
     {
       "id": 38,
@@ -1712,7 +1827,10 @@
         "Obstruksi jalan napas",
         "Laringitis kronik >3 minggu"
       ],
-      "tags": ["respirasi", "THT"]
+      "tags": [
+        "respirasi",
+        "THT"
+      ]
     },
     {
       "id": 39,
@@ -1777,7 +1895,11 @@
         "Serangan berat/mengancam jiwa",
         "Asma + kehamilan"
       ],
-      "tags": ["respirasi", "alergi", "kronik"]
+      "tags": [
+        "respirasi",
+        "alergi",
+        "kronik"
+      ]
     },
     {
       "id": 40,
@@ -1833,7 +1955,10 @@
         "Sesak berat",
         "Batuk >3 minggu (curiga TB)"
       ],
-      "tags": ["respirasi", "infeksi"]
+      "tags": [
+        "respirasi",
+        "infeksi"
+      ]
     },
     {
       "id": 41,
@@ -1890,7 +2015,10 @@
         "Tidak respons antibiotik 48-72 jam",
         "Pneumonia pada imunodefisiensi"
       ],
-      "tags": ["respirasi", "infeksi"]
+      "tags": [
+        "respirasi",
+        "infeksi"
+      ]
     },
     {
       "id": 42,
@@ -1956,7 +2084,11 @@
         "Efek samping OAT berat",
         "BTA tetap positif setelah fase intensif"
       ],
-      "tags": ["respirasi", "infeksi", "kronik"]
+      "tags": [
+        "respirasi",
+        "infeksi",
+        "kronik"
+      ]
     },
     {
       "id": 43,
@@ -2031,7 +2163,10 @@
         "Krisis hipertensi",
         "Kerusakan organ target"
       ],
-      "tags": ["kardiovaskular", "kronik"]
+      "tags": [
+        "kardiovaskular",
+        "kronik"
+      ]
     },
     {
       "id": 44,
@@ -2097,7 +2232,11 @@
         "Gagal jantung",
         "Chorea Sydenham"
       ],
-      "tags": ["kardiovaskular", "infeksi", "pediatri"]
+      "tags": [
+        "kardiovaskular",
+        "infeksi",
+        "pediatri"
+      ]
     },
     {
       "id": 45,
@@ -2137,7 +2276,10 @@
         "Curiga imunodefisiensi",
         "Kandidiasis esofagus"
       ],
-      "tags": ["gastrointestinal", "infeksi"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi"
+      ]
     },
     {
       "id": 46,
@@ -2193,7 +2335,9 @@
         "Curiga keganasan",
         "Ulkus rekuren berat (curiga Behcet)"
       ],
-      "tags": ["gastrointestinal"]
+      "tags": [
+        "gastrointestinal"
+      ]
     },
     {
       "id": 47,
@@ -2240,7 +2384,10 @@
       "referral_criteria": [
         "Komplikasi: orkitis, pankreatitis, meningoensefalitis"
       ],
-      "tags": ["gastrointestinal", "infeksi"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi"
+      ]
     },
     {
       "id": 48,
@@ -2288,7 +2435,12 @@
         "Tanda sepsis neonatal",
         "Omfalitis dengan peritonitis"
       ],
-      "tags": ["gastrointestinal", "infeksi", "pediatri", "neonatal"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi",
+        "pediatri",
+        "neonatal"
+      ]
     },
     {
       "id": 49,
@@ -2345,7 +2497,9 @@
         "Alarm signs: hematemesis, melena, penurunan BB",
         "Curiga keganasan"
       ],
-      "tags": ["gastrointestinal"]
+      "tags": [
+        "gastrointestinal"
+      ]
     },
     {
       "id": 50,
@@ -2403,7 +2557,11 @@
         "Muntah persisten",
         "Tanda ileus"
       ],
-      "tags": ["gastrointestinal", "infeksi", "pediatri"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi",
+        "pediatri"
+      ]
     },
     {
       "id": 51,
@@ -2461,7 +2619,9 @@
         "Tidak respons PPI 8 minggu",
         "Curiga Barrett esofagus"
       ],
-      "tags": ["gastrointestinal"]
+      "tags": [
+        "gastrointestinal"
+      ]
     },
     {
       "id": 52,
@@ -2517,7 +2677,10 @@
         "Tidak respons terapi 5-7 hari",
         "Karier tifoid"
       ],
-      "tags": ["gastrointestinal", "infeksi"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi"
+      ]
     },
     {
       "id": 53,
@@ -2539,7 +2702,10 @@
         "Gejala sistemik berat",
         "Diagnosis tidak pasti"
       ],
-      "tags": ["gastrointestinal", "nutrisi"]
+      "tags": [
+        "gastrointestinal",
+        "nutrisi"
+      ]
     },
     {
       "id": 54,
@@ -2587,7 +2753,11 @@
         "Alergi makanan multipel",
         "Gagal tumbuh anak"
       ],
-      "tags": ["gastrointestinal", "alergi", "emergensi"]
+      "tags": [
+        "gastrointestinal",
+        "alergi",
+        "emergensi"
+      ]
     },
     {
       "id": 55,
@@ -2634,7 +2804,10 @@
         "Curiga keracunan bahan kimia/jamur",
         "Gejala neurologis"
       ],
-      "tags": ["gastrointestinal", "emergensi"]
+      "tags": [
+        "gastrointestinal",
+        "emergensi"
+      ]
     },
     {
       "id": 56,
@@ -2678,8 +2851,15 @@
         "Sanitasi lingkungan",
         "Pengobatan massal berkala"
       ],
-      "referral_criteria": ["Anemia berat", "Gagal tumbuh anak"],
-      "tags": ["gastrointestinal", "infeksi", "parasit"]
+      "referral_criteria": [
+        "Anemia berat",
+        "Gagal tumbuh anak"
+      ],
+      "tags": [
+        "gastrointestinal",
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 57,
@@ -2718,7 +2898,11 @@
         "Hyperinfection syndrome pada imunodefisiensi",
         "Gejala paru berat"
       ],
-      "tags": ["gastrointestinal", "infeksi", "parasit"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 58,
@@ -2766,7 +2950,11 @@
         "Obstruksi usus (bolus askaris)",
         "Obstruksi bilier"
       ],
-      "tags": ["gastrointestinal", "infeksi", "parasit"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 59,
@@ -2796,7 +2984,11 @@
         "Skistosomiasis hepatosplenik",
         "Skistosomiasis serebral"
       ],
-      "tags": ["gastrointestinal", "infeksi", "parasit"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 60,
@@ -2835,7 +3027,11 @@
         "Curiga sistiserkosis (neurosistiserkosis)",
         "Gejala neurologis"
       ],
-      "tags": ["gastrointestinal", "infeksi", "parasit"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 61,
@@ -2884,7 +3080,10 @@
         "Koagulopati",
         "Ensefalopati hepatik"
       ],
-      "tags": ["gastrointestinal", "infeksi"]
+      "tags": [
+        "gastrointestinal",
+        "infeksi"
+      ]
     },
     {
       "id": 62,
@@ -2948,8 +3147,13 @@
         "Megakolon toksik",
         "Abses hepar amuba"
       ],
-      "tags": ["gastrointestinal", "infeksi"],
-      "icd10_secondary": ["A03.9"],
+      "tags": [
+        "gastrointestinal",
+        "infeksi"
+      ],
+      "icd10_secondary": [
+        "A03.9"
+      ],
       "icd10_note": "Disentri Basiler (A03.9) dan Amuba (A06.0). Primary A06.0 untuk e-Klaim."
     },
     {
@@ -2999,8 +3203,13 @@
         "Perdarahan masif",
         "Trombosis hemoroid"
       ],
-      "tags": ["gastrointestinal"],
-      "icd10_secondary": ["K64.0", "K64.1"],
+      "tags": [
+        "gastrointestinal"
+      ],
+      "icd10_secondary": [
+        "K64.0",
+        "K64.1"
+      ],
       "icd10_note": "K64 adalah ICD-10-CM. Untuk e-Klaim BPJS gunakan I84 (ICD-10-2010)."
     },
     {
@@ -3058,7 +3267,10 @@
         "ISK berulang (>3x/tahun)",
         "ISK pada pria muda (curiga kelainan anatomis)"
       ],
-      "tags": ["urologi", "infeksi"]
+      "tags": [
+        "urologi",
+        "infeksi"
+      ]
     },
     {
       "id": 65,
@@ -3115,7 +3327,11 @@
         "Gonore pada neonatus (oftalmia neonatorum)",
         "Resistensi antibiotik"
       ],
-      "tags": ["urologi", "infeksi", "IMS"]
+      "tags": [
+        "urologi",
+        "infeksi",
+        "IMS"
+      ]
     },
     {
       "id": 66,
@@ -3164,7 +3380,10 @@
         "Obstruksi saluran kemih",
         "Pielonefritis pada kehamilan"
       ],
-      "tags": ["urologi", "infeksi"]
+      "tags": [
+        "urologi",
+        "infeksi"
+      ]
     },
     {
       "id": 67,
@@ -3195,7 +3414,10 @@
         "Balanitis berulang",
         "Tidak respons terapi steroid topikal"
       ],
-      "tags": ["urologi", "pediatri"]
+      "tags": [
+        "urologi",
+        "pediatri"
+      ]
     },
     {
       "id": 68,
@@ -3225,7 +3447,10 @@
         "Gagal reduksi manual",
         "Tanda iskemia/nekrosis glans"
       ],
-      "tags": ["urologi", "emergensi"],
+      "tags": [
+        "urologi",
+        "emergensi"
+      ],
       "icd10_note": "N47.2 tidak ada di ICD-10-2010. Gunakan N47."
     },
     {
@@ -3283,7 +3508,11 @@
         "Komplikasi (PID, epididimitis)",
         "Curiga resistensi"
       ],
-      "tags": ["urologi", "infeksi", "IMS"]
+      "tags": [
+        "urologi",
+        "infeksi",
+        "IMS"
+      ]
     },
     {
       "id": 70,
@@ -3339,7 +3568,10 @@
         "Hematuria persisten",
         "Curiga kelainan struktural"
       ],
-      "tags": ["urologi", "infeksi"]
+      "tags": [
+        "urologi",
+        "infeksi"
+      ]
     },
     {
       "id": 71,
@@ -3388,7 +3620,10 @@
         "Curiga keganasan",
         "Lesi atipik"
       ],
-      "tags": ["reproduksi", "infeksi"]
+      "tags": [
+        "reproduksi",
+        "infeksi"
+      ]
     },
     {
       "id": 72,
@@ -3443,7 +3678,10 @@
         "Vaginitis berulang (>4x/tahun)",
         "Curiga IMS lain"
       ],
-      "tags": ["reproduksi", "infeksi"]
+      "tags": [
+        "reproduksi",
+        "infeksi"
+      ]
     },
     {
       "id": 73,
@@ -3481,12 +3719,18 @@
         ],
         "prophylaxis": []
       },
-      "non_pharmacotherapy": ["Hindari douching", "Edukasi faktor risiko"],
+      "non_pharmacotherapy": [
+        "Hindari douching",
+        "Edukasi faktor risiko"
+      ],
       "referral_criteria": [
         "BV berulang",
         "BV pada kehamilan (risiko persalinan prematur)"
       ],
-      "tags": ["reproduksi", "infeksi"]
+      "tags": [
+        "reproduksi",
+        "infeksi"
+      ]
     },
     {
       "id": 74,
@@ -3533,7 +3777,10 @@
         "Peritonitis",
         "Tidak respons terapi oral 72 jam"
       ],
-      "tags": ["reproduksi", "infeksi"]
+      "tags": [
+        "reproduksi",
+        "infeksi"
+      ]
     },
     {
       "id": 75,
@@ -3577,8 +3824,14 @@
         "Olahraga ringan teratur",
         "Persiapan persalinan"
       ],
-      "referral_criteria": ["Kehamilan risiko tinggi", "Komplikasi kehamilan"],
-      "tags": ["reproduksi", "obstetri"]
+      "referral_criteria": [
+        "Kehamilan risiko tinggi",
+        "Komplikasi kehamilan"
+      ],
+      "tags": [
+        "reproduksi",
+        "obstetri"
+      ]
     },
     {
       "id": 76,
@@ -3627,7 +3880,11 @@
         "Tanda sepsis",
         "Curiga kehamilan ektopik"
       ],
-      "tags": ["reproduksi", "obstetri", "emergensi"]
+      "tags": [
+        "reproduksi",
+        "obstetri",
+        "emergensi"
+      ]
     },
     {
       "id": 77,
@@ -3674,7 +3931,11 @@
         "Anemia berat dengan tanda gagal jantung",
         "Tidak respons terapi oral"
       ],
-      "tags": ["reproduksi", "obstetri", "hematologi"]
+      "tags": [
+        "reproduksi",
+        "obstetri",
+        "hematologi"
+      ]
     },
     {
       "id": 78,
@@ -3721,8 +3982,13 @@
         "Ruptur perineum derajat 3-4",
         "Perdarahan tidak terkontrol"
       ],
-      "tags": ["reproduksi", "obstetri"],
-      "icd10_secondary": ["O70.1"],
+      "tags": [
+        "reproduksi",
+        "obstetri"
+      ],
+      "icd10_secondary": [
+        "O70.1"
+      ],
       "icd10_note": "Ruptur tingkat 1 (O70.0) primary; O70.1 untuk tingkat 2."
     },
     {
@@ -3770,7 +4036,10 @@
         "Abses yang tidak respons terapi",
         "Curiga keganasan payudara"
       ],
-      "tags": ["reproduksi", "infeksi"]
+      "tags": [
+        "reproduksi",
+        "infeksi"
+      ]
     },
     {
       "id": 80,
@@ -3827,7 +4096,11 @@
         "Tidak respons antibiotik 48-72 jam",
         "Mastitis berulang"
       ],
-      "tags": ["reproduksi", "infeksi", "obstetri"]
+      "tags": [
+        "reproduksi",
+        "infeksi",
+        "obstetri"
+      ]
     },
     {
       "id": 81,
@@ -3858,7 +4131,10 @@
         "Infeksi sekunder (mastitis)",
         "Tidak membaik dengan perbaikan teknik"
       ],
-      "tags": ["reproduksi", "obstetri"]
+      "tags": [
+        "reproduksi",
+        "obstetri"
+      ]
     },
     {
       "id": 82,
@@ -3880,7 +4156,10 @@
         "Inverted nipple baru (curiga keganasan)",
         "Gagal menyusui dengan alat bantu"
       ],
-      "tags": ["reproduksi", "obstetri"]
+      "tags": [
+        "reproduksi",
+        "obstetri"
+      ]
     },
     {
       "id": 83,
@@ -3921,7 +4200,10 @@
         "Ketoasidosis diabetik (KAD)",
         "Hipoglikemia berulang berat"
       ],
-      "tags": ["endokrin", "kronik"]
+      "tags": [
+        "endokrin",
+        "kronik"
+      ]
     },
     {
       "id": 84,
@@ -3987,7 +4269,10 @@
         "Komplikasi (retinopati, nefropati, neuropati, kaki diabetik)",
         "DM + kehamilan"
       ],
-      "tags": ["endokrin", "kronik"]
+      "tags": [
+        "endokrin",
+        "kronik"
+      ]
     },
     {
       "id": 85,
@@ -4027,7 +4312,10 @@
         "Hipoglikemia berulang",
         "Hipoglikemia tanpa DM (curiga insulinoma)"
       ],
-      "tags": ["endokrin", "emergensi"]
+      "tags": [
+        "endokrin",
+        "emergensi"
+      ]
     },
     {
       "id": 86,
@@ -4100,7 +4388,10 @@
         "Gagal ginjal",
         "Tidak respons terapi konvensional"
       ],
-      "tags": ["endokrin", "muskuloskeletal"]
+      "tags": [
+        "endokrin",
+        "muskuloskeletal"
+      ]
     },
     {
       "id": 87,
@@ -4139,7 +4430,9 @@
         "Tidak respons terapi oral 1 bulan",
         "Curiga keganasan"
       ],
-      "tags": ["hematologi"]
+      "tags": [
+        "hematologi"
+      ]
     },
     {
       "id": 88,
@@ -4180,8 +4473,13 @@
         "Perdarahan masif",
         "Tanda bahaya (nyeri perut hebat, muntah persisten)"
       ],
-      "tags": ["hematologi", "infeksi"],
-      "icd10_secondary": ["A91"],
+      "tags": [
+        "hematologi",
+        "infeksi"
+      ],
+      "icd10_secondary": [
+        "A91"
+      ],
       "icd10_note": "Dengue (A90) primary; A91 jika dikonfirmasi DBD."
     },
     {
@@ -4238,7 +4536,10 @@
         "Parasitemia tinggi >5%",
         "Malaria pada kehamilan"
       ],
-      "tags": ["hematologi", "infeksi"]
+      "tags": [
+        "hematologi",
+        "infeksi"
+      ]
     },
     {
       "id": 90,
@@ -4294,7 +4595,9 @@
         "Leptospirosis berat (ikterik, gagal ginjal, perdarahan paru)",
         "Sindrom Weil"
       ],
-      "tags": ["infeksi"]
+      "tags": [
+        "infeksi"
+      ]
     },
     {
       "id": 91,
@@ -4342,7 +4645,10 @@
         "Hidrokel besar",
         "Serangan akut berulang"
       ],
-      "tags": ["infeksi", "parasit"]
+      "tags": [
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 92,
@@ -4398,7 +4704,10 @@
         "Anafilaksis bifasik",
         "Edema laring"
       ],
-      "tags": ["alergi", "emergensi"]
+      "tags": [
+        "alergi",
+        "emergensi"
+      ]
     },
     {
       "id": 93,
@@ -4454,7 +4763,10 @@
         "Angioedema wajah/saluran napas",
         "Curiga vaskulitis urtikaria"
       ],
-      "tags": ["alergi", "kulit"]
+      "tags": [
+        "alergi",
+        "kulit"
+      ]
     },
     {
       "id": 94,
@@ -4493,7 +4805,10 @@
         "Keterlibatan mukosa",
         "Demam tinggi + lesi kulit luas"
       ],
-      "tags": ["alergi", "kulit"]
+      "tags": [
+        "alergi",
+        "kulit"
+      ]
     },
     {
       "id": 95,
@@ -4550,7 +4865,10 @@
         "Infeksi sekunder luas",
         "Eritroderma"
       ],
-      "tags": ["kulit", "alergi"]
+      "tags": [
+        "kulit",
+        "alergi"
+      ]
     },
     {
       "id": 96,
@@ -4598,7 +4916,10 @@
         "Tidak respons terapi",
         "Perlu patch test"
       ],
-      "tags": ["kulit", "alergi"]
+      "tags": [
+        "kulit",
+        "alergi"
+      ]
     },
     {
       "id": 97,
@@ -4646,7 +4967,10 @@
         "Curiga keganasan",
         "Perlu debridemen luas"
       ],
-      "tags": ["kulit", "vaskular"]
+      "tags": [
+        "kulit",
+        "vaskular"
+      ]
     },
     {
       "id": 98,
@@ -4667,7 +4991,10 @@
         "Pertumbuhan cepat (curiga liposarkoma)",
         "Lipoma multipel"
       ],
-      "tags": ["kulit", "bedah minor"]
+      "tags": [
+        "kulit",
+        "bedah minor"
+      ]
     },
     {
       "id": 99,
@@ -4707,7 +5034,10 @@
         "Veruka genitalis (kondiloma akuminata)",
         "Tidak respons terapi"
       ],
-      "tags": ["kulit", "infeksi"]
+      "tags": [
+        "kulit",
+        "infeksi"
+      ]
     },
     {
       "id": 100,
@@ -4734,8 +5064,14 @@
         "Krioterapi",
         "Jangan berbagi handuk/pakaian"
       ],
-      "referral_criteria": ["Lesi sangat banyak", "Imunodefisiensi (HIV)"],
-      "tags": ["kulit", "infeksi"]
+      "referral_criteria": [
+        "Lesi sangat banyak",
+        "Imunodefisiensi (HIV)"
+      ],
+      "tags": [
+        "kulit",
+        "infeksi"
+      ]
     },
     {
       "id": 101,
@@ -4792,7 +5128,11 @@
         "Neuralgia post-herpetik berat",
         "Imunodefisiensi"
       ],
-      "tags": ["kulit", "infeksi", "neurologi"]
+      "tags": [
+        "kulit",
+        "infeksi",
+        "neurologi"
+      ]
     },
     {
       "id": 102,
@@ -4839,7 +5179,11 @@
         "Komplikasi: pneumonia campak, ensefalitis, otitis media",
         "Campak pada imunodefisiensi"
       ],
-      "tags": ["kulit", "infeksi", "pediatri"]
+      "tags": [
+        "kulit",
+        "infeksi",
+        "pediatri"
+      ]
     },
     {
       "id": 103,
@@ -4905,7 +5249,11 @@
         "Komplikasi: pneumonia, ensefalitis",
         "Varisela hemoragik"
       ],
-      "tags": ["kulit", "infeksi", "pediatri"]
+      "tags": [
+        "kulit",
+        "infeksi",
+        "pediatri"
+      ]
     },
     {
       "id": 104,
@@ -4962,7 +5310,10 @@
         "Herpes neonatorum",
         "Herpes pada imunodefisiensi"
       ],
-      "tags": ["kulit", "infeksi"]
+      "tags": [
+        "kulit",
+        "infeksi"
+      ]
     },
     {
       "id": 105,
@@ -5009,7 +5360,11 @@
         "Impetigo luas/tidak respons",
         "Curiga GNAPS (post-streptococcal)"
       ],
-      "tags": ["kulit", "infeksi", "pediatri"]
+      "tags": [
+        "kulit",
+        "infeksi",
+        "pediatri"
+      ]
     },
     {
       "id": 106,
@@ -5057,7 +5412,10 @@
         "Tidak respons terapi",
         "Komplikasi selulitis"
       ],
-      "tags": ["kulit", "infeksi"]
+      "tags": [
+        "kulit",
+        "infeksi"
+      ]
     },
     {
       "id": 107,
@@ -5104,7 +5462,10 @@
         "Folikulitis profunda (furunkel)",
         "Folikulitis rekuren"
       ],
-      "tags": ["kulit", "infeksi"]
+      "tags": [
+        "kulit",
+        "infeksi"
+      ]
     },
     {
       "id": 108,
@@ -5160,7 +5521,10 @@
         "Furunkulosis berulang",
         "Tanda sepsis"
       ],
-      "tags": ["kulit", "infeksi"]
+      "tags": [
+        "kulit",
+        "infeksi"
+      ]
     },
     {
       "id": 109,
@@ -5203,8 +5567,13 @@
         "Hindari pakaian ketat",
         "Bedak antimisetik"
       ],
-      "referral_criteria": ["Eritrasma luas/rekuren"],
-      "tags": ["kulit", "infeksi"]
+      "referral_criteria": [
+        "Eritrasma luas/rekuren"
+      ],
+      "tags": [
+        "kulit",
+        "infeksi"
+      ]
     },
     {
       "id": 110,
@@ -5252,7 +5621,10 @@
         "Tanda sepsis",
         "Tidak respons antibiotik oral"
       ],
-      "tags": ["kulit", "infeksi"]
+      "tags": [
+        "kulit",
+        "infeksi"
+      ]
     },
     {
       "id": 111,
@@ -5286,8 +5658,15 @@
         "Nutrisi adekuat",
         "Pemeriksaan kontak TB"
       ],
-      "referral_criteria": ["TB kulit tidak respons OAT", "Curiga TB-MDR"],
-      "tags": ["kulit", "infeksi", "TB"]
+      "referral_criteria": [
+        "TB kulit tidak respons OAT",
+        "Curiga TB-MDR"
+      ],
+      "tags": [
+        "kulit",
+        "infeksi",
+        "TB"
+      ]
     },
     {
       "id": 112,
@@ -5330,8 +5709,13 @@
         "Hindari stres",
         "Shampo antijamur maintenance"
       ],
-      "referral_criteria": ["DS luas/tidak respons", "Curiga psoriasis"],
-      "tags": ["kulit"]
+      "referral_criteria": [
+        "DS luas/tidak respons",
+        "Curiga psoriasis"
+      ],
+      "tags": [
+        "kulit"
+      ]
     },
     {
       "id": 113,
@@ -5373,8 +5757,13 @@
         "Hindari iritan",
         "Hindari mandi air panas"
       ],
-      "referral_criteria": ["Tidak respons terapi topikal", "Lesi sangat luas"],
-      "tags": ["kulit"]
+      "referral_criteria": [
+        "Tidak respons terapi topikal",
+        "Lesi sangat luas"
+      ],
+      "tags": [
+        "kulit"
+      ]
     },
     {
       "id": 114,
@@ -5431,7 +5820,11 @@
         "Tinea kapitis (perlu oral)",
         "Dermatofitosis pada imunodefisiensi"
       ],
-      "tags": ["kulit", "infeksi", "jamur"]
+      "tags": [
+        "kulit",
+        "infeksi",
+        "jamur"
+      ]
     },
     {
       "id": 115,
@@ -5486,7 +5879,11 @@
         "Tidak respons terapi",
         "Pitiriasis versikolor sangat luas"
       ],
-      "tags": ["kulit", "infeksi", "jamur"]
+      "tags": [
+        "kulit",
+        "infeksi",
+        "jamur"
+      ]
     },
     {
       "id": 116,
@@ -5541,7 +5938,11 @@
         "Skabies krustosa (Norwegian scabies)",
         "Infeksi sekunder berat"
       ],
-      "tags": ["kulit", "infeksi", "parasit"]
+      "tags": [
+        "kulit",
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 117,
@@ -5576,8 +5977,15 @@
         "Cuci semua topi/sprei/handuk",
         "Periksa dan obati anggota keluarga"
       ],
-      "referral_criteria": ["Tidak respons terapi", "Infeksi sekunder berat"],
-      "tags": ["kulit", "infeksi", "parasit"]
+      "referral_criteria": [
+        "Tidak respons terapi",
+        "Infeksi sekunder berat"
+      ],
+      "tags": [
+        "kulit",
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 118,
@@ -5611,8 +6019,15 @@
         "Gunakan alas kaki di pantai/tanah",
         "Hindari duduk langsung di tanah/pasir"
       ],
-      "referral_criteria": ["Lesi sangat luas", "Infeksi sekunder"],
-      "tags": ["kulit", "infeksi", "parasit"]
+      "referral_criteria": [
+        "Lesi sangat luas",
+        "Infeksi sekunder"
+      ],
+      "tags": [
+        "kulit",
+        "infeksi",
+        "parasit"
+      ]
     },
     {
       "id": 119,
@@ -5646,8 +6061,14 @@
         "Jangan menggaruk",
         "Gunakan repelen"
       ],
-      "referral_criteria": ["Reaksi anafilaksis", "Infeksi sekunder luas"],
-      "tags": ["kulit", "alergi"]
+      "referral_criteria": [
+        "Reaksi anafilaksis",
+        "Infeksi sekunder luas"
+      ],
+      "tags": [
+        "kulit",
+        "alergi"
+      ]
     },
     {
       "id": 120,
@@ -5715,7 +6136,11 @@
         "Luka bakar listrik/kimia",
         "Luka bakar inhalasi"
       ],
-      "tags": ["kulit", "emergensi", "bedah"]
+      "tags": [
+        "kulit",
+        "emergensi",
+        "bedah"
+      ]
     },
     {
       "id": 121,
@@ -5772,7 +6197,11 @@
         "Deformitas sendi",
         "Perlu tindakan bedah"
       ],
-      "tags": ["muskuloskeletal", "kronik", "geriatri"]
+      "tags": [
+        "muskuloskeletal",
+        "kronik",
+        "geriatri"
+      ]
     },
     {
       "id": 122,
@@ -5838,7 +6267,10 @@
         "Nyeri >6 minggu tanpa perbaikan",
         "Curiga fraktur/tumor/infeksi"
       ],
-      "tags": ["muskuloskeletal", "nyeri"]
+      "tags": [
+        "muskuloskeletal",
+        "nyeri"
+      ]
     },
     {
       "id": 123,
@@ -5894,7 +6326,11 @@
         "Semua fraktur terbuka perlu rujukan untuk debridemen dan fiksasi",
         "Fraktur terbuka grade 2-3"
       ],
-      "tags": ["muskuloskeletal", "emergensi", "bedah"]
+      "tags": [
+        "muskuloskeletal",
+        "emergensi",
+        "bedah"
+      ]
     },
     {
       "id": 124,
@@ -5951,7 +6387,11 @@
         "Kerusakan tendon/saraf/pembuluh darah",
         "Luka di wajah (perlu penjahitan kosmetik)"
       ],
-      "tags": ["muskuloskeletal", "emergensi", "bedah minor"]
+      "tags": [
+        "muskuloskeletal",
+        "emergensi",
+        "bedah minor"
+      ]
     },
     {
       "id": 125,
@@ -6016,7 +6456,11 @@
         "Luka di wajah/leher/tangan",
         "Hewan penggigit curiga rabies"
       ],
-      "tags": ["muskuloskeletal", "emergensi", "infeksi"]
+      "tags": [
+        "muskuloskeletal",
+        "emergensi",
+        "infeksi"
+      ]
     },
     {
       "id": 126,
@@ -6037,7 +6481,10 @@
         "Ukuran >5 cm",
         "Curiga liposarkoma"
       ],
-      "tags": ["muskuloskeletal", "bedah minor"]
+      "tags": [
+        "muskuloskeletal",
+        "bedah minor"
+      ]
     },
     {
       "id": 127,
@@ -6084,7 +6531,9 @@
         "Miliaria profunda berulang",
         "Infeksi sekunder luas"
       ],
-      "tags": ["kulit"]
+      "tags": [
+        "kulit"
+      ]
     },
     {
       "id": 128,
@@ -6149,7 +6598,9 @@
         "Akne tidak respons terapi 3 bulan",
         "Acne keloidalis"
       ],
-      "tags": ["kulit"]
+      "tags": [
+        "kulit"
+      ]
     },
     {
       "id": 129,
@@ -6187,7 +6638,9 @@
         "Lesi atipikal (curiga sifilis sekunder, tinea korporis)",
         "Durasi >3 bulan"
       ],
-      "tags": ["kulit"]
+      "tags": [
+        "kulit"
+      ]
     },
     {
       "id": 130,
@@ -6243,7 +6696,11 @@
         "Psoriasis artritis",
         "Psoriasis eritroderma/pustular"
       ],
-      "tags": ["kulit", "autoimun", "kronik"]
+      "tags": [
+        "kulit",
+        "autoimun",
+        "kronik"
+      ]
     },
     {
       "id": 131,
@@ -6291,7 +6748,11 @@
         "Tidak respons terapi",
         "Curiga imunodefisiensi"
       ],
-      "tags": ["kulit", "infeksi", "jamur"]
+      "tags": [
+        "kulit",
+        "infeksi",
+        "jamur"
+      ]
     },
     {
       "id": 132,
@@ -6339,7 +6800,10 @@
         "Dermatitis popok tidak membaik >7 hari",
         "Lesi erosif luas"
       ],
-      "tags": ["kulit", "pediatri"]
+      "tags": [
+        "kulit",
+        "pediatri"
+      ]
     },
     {
       "id": 133,
@@ -6386,7 +6850,9 @@
         "Pruritus generalisata tanpa penyebab jelas",
         "Curiga penyakit sistemik (gagal ginjal, kolestasis, limfoma)"
       ],
-      "tags": ["kulit"]
+      "tags": [
+        "kulit"
+      ]
     },
     {
       "id": 134,
@@ -6418,7 +6884,9 @@
         "Tanda sepsis",
         "Curiga keganasan/autoimun"
       ],
-      "tags": ["umum"]
+      "tags": [
+        "umum"
+      ]
     },
     {
       "id": 135,
@@ -6450,7 +6918,10 @@
         "Pertimbangan bedah bariatrik",
         "Gagal intervensi gaya hidup 6 bulan"
       ],
-      "tags": ["endokrin", "nutrisi"]
+      "tags": [
+        "endokrin",
+        "nutrisi"
+      ]
     },
     {
       "id": 136,
@@ -6507,7 +6978,10 @@
         "Tidak tercapai target LDL",
         "Intoleransi statin"
       ],
-      "tags": ["endokrin", "kardiovaskular"]
+      "tags": [
+        "endokrin",
+        "kardiovaskular"
+      ]
     },
     {
       "id": 137,
@@ -6571,7 +7045,10 @@
         "Tidak ada nafsu makan",
         "Edema anasarka"
       ],
-      "tags": ["nutrisi", "pediatri"]
+      "tags": [
+        "nutrisi",
+        "pediatri"
+      ]
     },
     {
       "id": 138,
@@ -6605,8 +7082,14 @@
         "Diet kaya vitamin A (wortel, bayam, hati, telur)",
         "Edukasi gizi"
       ],
-      "referral_criteria": ["Xeroftalmia lanjut", "Keratomalasia"],
-      "tags": ["nutrisi", "mata"]
+      "referral_criteria": [
+        "Xeroftalmia lanjut",
+        "Keratomalasia"
+      ],
+      "tags": [
+        "nutrisi",
+        "mata"
+      ]
     },
     {
       "id": 139,
@@ -6635,9 +7118,17 @@
         "second_line": [],
         "prophylaxis": []
       },
-      "non_pharmacotherapy": ["Diet seimbang", "Edukasi gizi"],
-      "referral_criteria": ["Wernicke encephalopathy", "Neuropati berat"],
-      "tags": ["nutrisi"]
+      "non_pharmacotherapy": [
+        "Diet seimbang",
+        "Edukasi gizi"
+      ],
+      "referral_criteria": [
+        "Wernicke encephalopathy",
+        "Neuropati berat"
+      ],
+      "tags": [
+        "nutrisi"
+      ]
     },
     {
       "id": 140,
@@ -6662,8 +7153,13 @@
         "Diet kaya vitamin C (jeruk, jambu biji, sayuran hijau)",
         "Edukasi gizi"
       ],
-      "referral_criteria": ["Perdarahan hebat", "Komplikasi gigi parah"],
-      "tags": ["nutrisi"]
+      "referral_criteria": [
+        "Perdarahan hebat",
+        "Komplikasi gigi parah"
+      ],
+      "tags": [
+        "nutrisi"
+      ]
     },
     {
       "id": 141,
@@ -6719,7 +7215,10 @@
         "Komplikasi orbita/intrakranial",
         "Tidak respons antibiotik"
       ],
-      "tags": ["THT", "infeksi"]
+      "tags": [
+        "THT",
+        "infeksi"
+      ]
     },
     {
       "id": 142,
@@ -6775,7 +7274,9 @@
         "Semua gigitan ular berbisa perlu observasi RS",
         "Tanda envenomasi sistemik"
       ],
-      "tags": ["emergensi"]
+      "tags": [
+        "emergensi"
+      ]
     },
     {
       "id": 143,
@@ -6808,7 +7309,10 @@
         "Kebutuhan psikiatri",
         "Kebutuhan visum medikolegal"
       ],
-      "tags": ["forensik", "medikolegal"]
+      "tags": [
+        "forensik",
+        "medikolegal"
+      ]
     },
     {
       "id": 144,
@@ -6857,7 +7361,9 @@
         "Penurunan kesadaran",
         "Hipotermia berat"
       ],
-      "tags": ["emergensi"]
+      "tags": [
+        "emergensi"
+      ]
     }
   ]
 }

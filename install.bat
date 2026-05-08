@@ -1,7 +1,8 @@
+REM Architected and built by classy+.
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 chcp 65001 >nul
-title AUDREY — Setup
+title SIDELAB — Setup
 
 set "ROOT=%~dp0"
 set "ROOT_DRIVE=%~d0"
@@ -12,7 +13,7 @@ set "PYTHON_CMD="
 
 echo.
 echo  ================================================
-echo   AUDREY Setup — Clinical AI untuk Puskesmas
+echo   SIDELAB Setup — Clinical AI untuk Puskesmas
 echo  ================================================
 echo.
 
@@ -38,7 +39,7 @@ echo    Disk kosong   : !FREE_GB! GB
 if defined RAM_GB if !RAM_GB! LSS 16 (
     echo  [!] Peringatan: RAM di bawah 16 GB. Mode lokal mungkin berat.
     echo      Jika sering error saat inferensi, pertimbangkan 1 PC host Ollama
-    echo      dan PC lain hanya sebagai client Audrey.
+    echo      dan PC lain hanya sebagai client SideLab.
 )
 if defined FREE_GB if !FREE_GB! LSS 10 (
     echo  [!] Disk kosong kurang dari 10 GB. Install model bisa gagal.
@@ -105,15 +106,15 @@ if errorlevel 1 (
 )
 echo.
 echo  DeepSeek menjadi backend default saat runtime.
-echo  Jika ingin mode Local, pasang Ollama lalu pilih Local saat AUDREY berjalan.
+echo  Jika ingin mode Local, pasang Ollama lalu pilih Local saat SIDELAB berjalan.
 
 echo.
 echo  ================================================
-echo   Setup selesai. Jalankan AUDREY.bat untuk memulai.
+echo   Setup selesai. Jalankan SIDELAB.bat untuk memulai.
 echo  ================================================
 echo.
 echo  [i] Jika /send ingin dipakai, isi file .env lebih dulu.
-echo  [i] Jika nanti ada error di PC lain, jalankan diagnose-audrey.bat
+echo  [i] Jika nanti ada error di PC lain, jalankan diagnose-sidelab.bat
 echo      dan kirim file laporan dari folder diagnostics.
 echo.
 pause

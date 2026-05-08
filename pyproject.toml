@@ -1,0 +1,17 @@
+# Blueprinted & built by classy+.
+[tool.pytest.ini_options]
+cache_dir = ".cache/pytest"
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"

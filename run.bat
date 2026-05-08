@@ -1,9 +1,11 @@
+REM Architected and built by classy+.
 @echo off
 setlocal
 chcp 65001 >nul
-title AUDREY — Clinical AI
+title SIDELAB — Clinical AI
 set "ROOT=%~dp0"
 set "VENV_PY=%ROOT%.venv\Scripts\python.exe"
+set "PYTHONPYCACHEPREFIX=%ROOT%.cache\pycache"
 set "INSTALLER=%ROOT%install.bat"
 
 if not exist "%VENV_PY%" (
@@ -15,13 +17,13 @@ if not exist "%VENV_PY%" (
         pause
         exit /b 1
     )
-    echo       Setup AUDREY akan dijalankan otomatis.
+    echo       Setup SIDELAB akan dijalankan otomatis.
     echo.
     call "%INSTALLER%"
     if not exist "%VENV_PY%" (
         echo.
         echo   [!] Setup belum selesai atau gagal.
-        echo       Jalankan diagnose-audrey.bat jika masalah berulang.
+        echo       Jalankan diagnose-sidelab.bat jika masalah berulang.
         echo.
         pause
         exit /b 1
