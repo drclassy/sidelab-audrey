@@ -105,45 +105,45 @@ DEFAULT_MODEL = DEFAULT_LOCAL_MODEL
 MAX_HISTORY   = 12
 SEP           = "=" * 70
 
-# Kate CLI palette — exact match
-C_BORDER = "#003366"   # Oxford Blue  (border, frame)
-C_NAME   = "#DC5014"   # Burnt Orange (title/name)
-C_LABEL  = "#8C8C96"   # Grey-Blue    (labels)
-C_VALUE  = "#E6E6EB"   # Near White   (values)
-C_DIM    = "#50505A"   # Dark Grey    (secondary/dim)
-C_PANEL  = "#0B1724"   # Deep ink blue
-C_PANEL_ALT = "#102235"
-C_INFO   = "#86B8D8"
-C_SUCCESS = "#6D9D83"
-C_WARN   = "#C7A35A"
-C_ALERT  = "#C45A4E"
-C_META   = "#B8C7D1"
+# Onyx & Platinum — monochromatic luxury
+C_BORDER = "#9EAAB8"   # Platinum     (border, frame)
+C_NAME   = "#C8D4DC"   # Platinum Bright (title/name)
+C_LABEL  = "#686870"   # Medium Grey  (labels)
+C_VALUE  = "#F4F4F6"   # Near White   (values)
+C_DIM    = "#484850"   # Dim Onyx     (secondary/dim)
+C_PANEL  = "#0C0C10"   # Onyx
+C_PANEL_ALT = "#101014"
+C_INFO   = "#88A8C0"   # Cool Steel Blue
+C_SUCCESS = "#6A9478"  # Sage
+C_WARN   = "#B8A878"   # Warm Platinum
+C_ALERT  = "#B87878"   # Muted Rose
+C_META   = "#A0ACB8"   # Cool Platinum Grey
 
-# Palet section — medical journal aesthetic, kalem, hierarki klinis jelas
+# Palet section — monokromatik platinum, hierarki klinis jelas
 SECTION_STYLES = {
-    "ANAMNESIS"           : C_INFO,      # soft blue
-    "PEMERIKSAAN FISIK"   : C_INFO,      # soft blue
-    "ANJURAN PEMERIKSAAN" : "#94B5C0",   # muted teal
-    "DIAGNOSIS BANDING"   : "#B8860B",   # dark amber — diferensial
-    "DIAGNOSIS KERJA"     : C_NAME,      # burnt orange — keputusan utama
-    "TATALAKSANA"         : C_INFO,      # soft blue
-    "FARMAKOLOGI"         : C_INFO,      # soft blue — sama bobot dengan tatalaksana
-    "EDUKASI PASIEN"      : "#D4AF37",   # gold highlight — edukasi adalah pilar compliance
-    "KRITERIA RUJUK"      : C_ALERT,     # muted red — peringatan, tidak garish
-    "PROGNOSIS"           : C_LABEL,     # grey — outcome, bukan aksi
+    "ANAMNESIS"           : C_INFO,      # steel blue
+    "PEMERIKSAAN FISIK"   : C_INFO,      # steel blue
+    "ANJURAN PEMERIKSAAN" : "#90B0C0",   # cool slate
+    "DIAGNOSIS BANDING"   : "#B0A888",   # warm platinum-khaki — diferensial
+    "DIAGNOSIS KERJA"     : C_NAME,      # platinum bright — keputusan utama
+    "TATALAKSANA"         : C_INFO,      # steel blue
+    "FARMAKOLOGI"         : C_INFO,      # steel blue
+    "EDUKASI PASIEN"      : "#C0B888",   # platinum warm — edukasi adalah pilar compliance
+    "KRITERIA RUJUK"      : C_ALERT,     # muted rose — peringatan
+    "PROGNOSIS"           : C_LABEL,     # medium grey — outcome
 }
 
 ITEM_STYLES = {}  # semua item plain white — hanya header section yang berwarna
 
-# Warna judul AUDREY — monokromatik klinis (Oxford blue tegas)
-_TITLE_COLOR = "#003366"
+# Warna judul — platinum tegas
+_TITLE_COLOR = "#9EAAB8"
 
 _BADGE_TONES = {
-    "info": ("#0E1D2D", C_INFO),
-    "success": ("#14261B", C_SUCCESS),
-    "warn": ("#2A2114", C_WARN),
-    "alert": ("#301817", C_ALERT),
-    "muted": ("#182432", C_LABEL),
+    "info":    ("#141418", C_INFO),
+    "success": ("#141A16", C_SUCCESS),
+    "warn":    ("#1E1C14", C_WARN),
+    "alert":   ("#201414", C_ALERT),
+    "muted":   ("#181818", C_LABEL),
 }
 
 # ---------------------------------------------------------------------------
@@ -2801,11 +2801,11 @@ def _show_uplink_animation() -> None:
     label1 = "SideLab Engine Processing"
     label2 = "SideLab Intelligence Online"
 
-    # Soft blue + burnt orange (sesuai palet Kate CLI)
-    c1 = "\033[38;2;124;185;232m"
-    c2 = "\033[38;2;220;80;20m"
-    dim_lbl = "\033[2;38;2;160;160;170m"
-    dim_trk = "\033[38;2;60;60;70m"
+    # Steel blue + platinum (Onyx & Platinum palette)
+    c1 = "\033[38;2;136;168;192m"
+    c2 = "\033[38;2;200;212;220m"
+    dim_lbl = "\033[2;38;2;104;104;112m"
+    dim_trk = "\033[38;2;48;48;56m"
     rst = "\033[0m"
 
     fill_ch  = "▰"
