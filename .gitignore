@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+diagnostics/
+installer/_staging/
+installer/_logs/
+installer/vendor/*
+!installer/vendor/.gitkeep
+installer/python-embed/*
+!installer/python-embed/.gitkeep
+installer/wheelhouse/*
+!installer/wheelhouse/.gitkeep
+dist/*
+!dist/.gitkeep
