@@ -6,8 +6,8 @@ DEFAULT_BACKEND = "deepseek"
 DEFAULT_LOCAL_MODEL = "medgemma:4b"
 DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-flash"
 AVAILABLE_DEEPSEEK_MODELS = ("deepseek-v4-flash", "deepseek-v4-pro")
-DEFAULT_NVIDIA_MODEL = "minimaxai/minimax-m2.7"
-AVAILABLE_NVIDIA_MODELS = ("minimaxai/minimax-m2.7", "minimaxai/minimax-m2.5", "minimaxai/minimax-m2")
+DEFAULT_NVIDIA_MODEL = "meta/llama-3.3-70b-instruct"
+AVAILABLE_NVIDIA_MODELS = ("meta/llama-3.3-70b-instruct", "minimaxai/minimax-m2.7", "minimaxai/minimax-m2.5")
 
 
 def normalize_backend(value: str | None) -> str:
