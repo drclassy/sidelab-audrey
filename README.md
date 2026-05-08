@@ -1,8 +1,26 @@
-<div align="center"> # AUDREY — Sentra SideLab
-  <img src="public/sidelab-logo.png" alt="AUDREY — Sentra SideLab" width="720" />
-> **Sentra SideLab** · Clinical AI Division  
-> *by dr. Classy · Kediri, Indonesia · 2026*
+<div align="center">
+
+<img src="public/sidelab-logo.png" alt="Sentra SideLab" width="180" />
+
+<h1>AUDREY</h1>
+<h3>Advanced Universal Diagnostic & Responsive Expert Yield</h3>
+
+<p>
+  <b>Sentra SideLab</b> · Clinical AI Division<br/>
+  <i>by dr. Ferdi Iskandar · Kediri, Indonesia · 2026</i>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/status-research_prototype-orange" />
+  <img src="https://img.shields.io/badge/offline-100%25-brightgreen" />
+  <img src="https://img.shields.io/badge/model-MedGemma_4B-blue" />
+  <img src="https://img.shields.io/badge/standard-SKDI_%7C_PPK_IDI_%7C_FORNAS_2023-informational" />
+</p>
+
 </div>
+
+---
+
 ---
 
 ## Table of Contents
