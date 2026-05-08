@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/sidelab-logo.png" alt="Sentra SideLab" width="180" />
+<img src=".github/sidelab-gh.png" alt="Sentra SideLab" width="180" />
 
 <h1>AUDREY</h1>
 <h3>Advanced Universal Diagnostic & Responsive Expert Yield</h3>
