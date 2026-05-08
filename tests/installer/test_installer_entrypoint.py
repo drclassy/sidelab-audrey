@@ -15,6 +15,13 @@ class InstallerEntrypointTests(unittest.TestCase):
         content = launcher.read_text(encoding="utf-8")
         self.assertIn("call \"%~dp0run.bat\"", content)
 
+    def test_run_bat_targets_current_app_entrypoint_and_embedded_runtime(self):
+        run_bat = (ROOT / "run.bat").read_text(encoding="utf-8")
+
+        self.assertIn("runtime\\python\\python.exe", run_bat)
+        self.assertIn("sidelab.py", run_bat)
+        self.assertNotIn("medgemma_chat.py", run_bat)
+
     def test_install_guide_points_users_to_sidelab_launcher(self):
         guide = (ROOT / "README-INSTALL.md").read_text(encoding="utf-8")
 

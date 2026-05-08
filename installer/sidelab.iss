@@ -26,7 +26,7 @@ SolidCompression=yes
 WizardStyle=modern
 PrivilegesRequired=lowest
 SetupIconFile=assets\sidelab.ico
-UninstallDisplayIcon={app}\SIDELAB.bat
+UninstallDisplayIcon={app}\bootstrap\assets\sidelab.ico
 
 [Files]
 Source: "{#AppSource}\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs ignoreversion
