@@ -1,6 +1,6 @@
 """
 AUDREY — Advanced Universal Diagnostic & Responsive Expert Yield
-Sentra Artificial Intelligence × Google DeepMind
+Sentra SideLab Project · Clinical Intelligence Platform
 Architected by dr Ferdi Iskandar
 """
 
@@ -100,7 +100,7 @@ def _play_notification_sound() -> None:
 # Config
 # ---------------------------------------------------------------------------
 AI_NAME       = "AUDREY"
-DISPLAY_MODEL = "SENTRA-MED v1"
+DISPLAY_MODEL = "SideLab CDS v1"
 DEFAULT_MODEL = DEFAULT_LOCAL_MODEL
 MAX_HISTORY   = 12
 SEP           = "=" * 70
@@ -1904,7 +1904,7 @@ def _build_system(pasien: dict) -> str:
         if parts:
             pasien_str = "DATA PASIEN AKTIF:\n" + " | ".join(parts) + "\n\n"
 
-    return f"""{pasien_str}Kamu adalah AUDREY, asisten klinis untuk dokter FKTP/Puskesmas Indonesia oleh Sentra AI.
+    return f"""{pasien_str}Kamu adalah AUDREY, asisten klinis untuk dokter FKTP/Puskesmas Indonesia oleh Sentra SideLab Project.
 Panduan: SKDI, FORNAS 2023, PPK IDI. Jawab dalam bahasa Indonesia formal.
 Jika ada DATA REFERENSI gunakan sebagai acuan tambahan.
 
@@ -1917,7 +1917,7 @@ ATURAN KESELAMATAN — WAJIB DIPATUHI:
 6. Kata umum seperti nyeri, sakit, demam, lemas, pusing TIDAK cukup untuk memilih diagnosis tanpa lokasi, sistem tubuh, atau temuan pendukung.
 7. Jika ada bagian "Klarifikasi prioritas" pada DATA REFERENSI, gunakan itu sebagai pertanyaan follow-up otomatis yang harus diprioritaskan sebelum mengunci diagnosis final.
 
-Jika ditanya identitas: "Saya AUDREY oleh Sentra Artificial Intelligence."
+Jika ditanya identitas: "Saya AUDREY, Clinical Intelligence oleh Sentra SideLab Project."
 
 FORMAT KETAT — wajib 8 bagian dengan judul KAPITAL diikuti titik dua. Setiap item satu baris penuh.
 Pemisah nama dan alasan WAJIB pakai em-dash (—). Tidak ada bintang, hashtag, atau backtick.
@@ -2413,8 +2413,10 @@ def _title_audrey_colored() -> Text:
 
 def _header_title_row() -> Text:
     t = _title_audrey_colored()
+    t.append("  ·  ", style=C_DIM)
+    t.append("Sentra SideLab Project", style=f"bold {C_INFO}")
     t.append("  ", style=C_DIM)
-    t.append("Clinical Command Console", style=f"italic {C_META}")
+    t.append("Clinical Intelligence Console", style=f"italic {C_META}")
     return t
 
 
@@ -2479,8 +2481,8 @@ def _print_header(session_id: str, pasien: dict | None = None) -> None:
         border_style=C_BORDER,
         padding=(1, 2),
         expand=True,
-        title=_panel_title("SENTRA MEDICAL CONSOLE"),
-        subtitle=f"[{C_DIM}]FKTP / Puskesmas Clinical Decision Support[/]",
+        title=_panel_title("SENTRA SIDELAB PROJECT"),
+        subtitle=f"[{C_DIM}]Clinical Decision Intelligence · Primary Healthcare FKTP[/]",
         style=f"on {C_PANEL}",
     ))
     console.print()
@@ -2521,7 +2523,7 @@ def _print_help() -> None:
         ("/library20", "Shortcut 20 penyakit tersering untuk akses cepat harian"),
         ("/library50", "Pustaka ranking 1-50 dengan filter sistem dan search cerdas"),
         ("/library100", "Pustaka ranking 1-100 dengan navigasi, filter, dan search"),
-        ("/tree",    "Directory tree project AUDREY"),
+        ("/tree",    "Directory tree Sentra SideLab"),
         ("/pasien",  "Input data pasien aktif"),
         ("/next",    "Kasus baru — reset pasien dan riwayat"),
         ("/history", "Tampilkan riwayat percakapan"),
@@ -2796,8 +2798,8 @@ def _show_uplink_animation() -> None:
     width  = 36
     frames = 28
 
-    label1 = "Sentra Algorithm Run"
-    label2 = "Sentra Uplink Connected"
+    label1 = "SideLab Engine Processing"
+    label2 = "SideLab Intelligence Online"
 
     # Soft blue + burnt orange (sesuai palet Kate CLI)
     c1 = "\033[38;2;124;185;232m"
