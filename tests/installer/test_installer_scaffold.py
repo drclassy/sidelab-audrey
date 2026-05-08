@@ -38,7 +38,7 @@ class InstallerScaffoldTests(unittest.TestCase):
         script = (ROOT / "installer" / "build-installer.ps1").read_text(encoding="utf-8")
         self.assertIn("OllamaSetup.staged.exe", script)
         self.assertIn("Copy-Item -Force $OllamaInstallerPath $stagedOllamaInstaller", script)
-        self.assertIn("sidelab_llm", script)
+        self.assertIn('"sidelab"', script)
         self.assertIn('default_model = "deepseek-v4-flash"', script)
 
     def test_build_guide_mentions_python_embed_wheelhouse_and_assets(self):

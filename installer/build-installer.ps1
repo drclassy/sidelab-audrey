@@ -83,15 +83,14 @@ $rootFiles = @(
     "run.bat",
     "install.bat",
     "diagnose-sidelab.bat",
-    "medgemma_chat.py",
+    "sidelab.py",
+    "pyproject.toml",
     "requirements.txt",
     ".env.example",
     "README-INSTALL.md"
 )
 $rootDirs = @(
-    "sidelab_icd",
-    "sidelab_notify",
-    "sidelab_llm",
+    "sidelab",
     "data",
     "sounds"
 )

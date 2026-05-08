@@ -4,6 +4,7 @@ __pycache__/
 .cache/
 .venv/
 .env
+sessions/
 diagnostics/
 installer/_staging/
 installer/_logs/
